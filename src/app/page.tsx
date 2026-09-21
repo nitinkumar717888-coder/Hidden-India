@@ -276,7 +276,7 @@ export default async function HomePage() {
                 </strong>
               </div>
               <p className="preview-disclaimer">
-                *Illustrative example for demonstration only. Based on indicative distance (~244 km round-trip), estimated average economy (15 km/L), and typical tolls. Exact calculations use verified coordinates, vehicle specs, and live state fuel tariffs in the Trip Calculator.
+                *Illustrative example for demonstration only. Based on indicative distance (~244 km round-trip), estimated average economy (15 km/L), and typical tolls. Exact calculations use verified coordinates, vehicle specs, and current fuel pricing in the Trip Calculator.
               </p>
             </div>
           </div>

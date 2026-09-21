@@ -31,10 +31,10 @@ export default function LeafletMapClient({
 
       const tileUrl =
         process.env.NEXT_PUBLIC_MAP_TILE_URL ||
-        'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png';
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
       const attribution =
         process.env.NEXT_PUBLIC_MAP_ATTRIBUTION ||
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>';
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
 
       // Initialize map centered on Northern India
       const map = L.map(mapContainerRef.current, {
@@ -50,7 +50,6 @@ export default function LeafletMapClient({
       L.tileLayer(tileUrl, {
         attribution,
         maxZoom: 19,
-        subdomains: 'abcd',
       }).addTo(map);
 
       // Initialize marker cluster group or layer group
