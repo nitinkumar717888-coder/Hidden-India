@@ -1,0 +1,118 @@
+/**
+ * HIDDEN INDIA — TYPOGRAPHY SYSTEM
+ * Editorial hierarchy reflecting scholarly precision and travel wonder.
+ */
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+.text-display {
+  font-family: var(--font-serif);
+  font-size: var(--font-size-display);
+  line-height: var(--line-height-tight);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--color-text-primary);
+}
+
+h1,
+.text-h1 {
+  font-family: var(--font-serif);
+  font-size: var(--font-size-h1);
+  line-height: var(--line-height-heading);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--color-text-primary);
+}
+
+h2,
+.text-h2 {
+  font-family: var(--font-serif);
+  font-size: var(--font-size-h2);
+  line-height: var(--line-height-heading);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: var(--color-text-primary);
+}
+
+h3,
+.text-h3 {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-h3);
+  line-height: var(--line-height-heading);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--color-text-primary);
+}
+
+h4,
+.text-h4 {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-h4);
+  line-height: var(--line-height-heading);
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.text-lead {
+  font-size: var(--font-size-lead);
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+  font-weight: 400;
+}
+
+.text-body {
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  color: var(--color-text-primary);
+}
+
+.text-small {
+  font-size: var(--font-size-small);
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+}
+
+.text-caption {
+  font-size: var(--font-size-caption);
+  line-height: 1.4;
+  color: var(--color-text-muted);
+  letter-spacing: 0.02em;
+}
+
+.text-label {
+  font-size: var(--font-size-caption);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+}
+
+.text-eyebrow {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-small);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-terracotta);
+  margin-bottom: var(--space-2);
+}
+
+.editorial-quote {
+  border-left: 3px solid var(--color-terracotta);
+  padding-left: var(--space-4);
+  margin: var(--space-6) 0;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: var(--font-size-lead);
+  color: var(--color-text-primary);
+}

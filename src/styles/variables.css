@@ -1,0 +1,115 @@
+/**
+ * HIDDEN INDIA — DESIGN SYSTEM TOKENS
+ * Visual identity: Editorial travel publication + historic exploration platform
+ * Inspired by Indian sandstone, terracotta, mountain sal forests, and archival parchment.
+ */
+
+:root {
+  /* Surface & Backgrounds */
+  --color-bg-canvas: #FAF7F2;
+  --color-bg-surface: #FFFFFF;
+  --color-bg-subtle: #F3EFE8;
+  --color-bg-muted: #EBE5DB;
+  --color-bg-dark: #1A1F1C;
+  --color-bg-dark-surface: #242B27;
+
+  /* Ink & Typography */
+  --color-text-primary: #1C211E;
+  --color-text-secondary: #525954;
+  --color-text-muted: #7E8680;
+  --color-text-inverse: #FAF7F2;
+  --color-text-inverse-muted: #A8B1AA;
+
+  /* Editorial Heritage Accent Palette */
+  --color-terracotta: #AD4426;
+  --color-terracotta-hover: #91361D;
+  --color-terracotta-subtle: #FDF3F0;
+  --color-forest: #244B3D;
+  --color-forest-hover: #1A372D;
+  --color-forest-subtle: #EDF4F0;
+  --color-ochre: #C07D2B;
+  --color-ochre-subtle: #FEF8ED;
+
+  /* Borders & Dividers */
+  --color-border-subtle: #E7E1D7;
+  --color-border-medium: #CDC4B6;
+  --color-border-strong: #968B7A;
+  --color-border-dark: #37413B;
+
+  /* Evidence Classification Badges */
+  --color-badge-doc-text: #175237;
+  --color-badge-doc-bg: #EAF5EE;
+  --color-badge-doc-border: #A3D4B6;
+
+  --color-badge-trad-text: #96530F;
+  --color-badge-trad-bg: #FDF4E7;
+  --color-badge-trad-border: #F3CF9F;
+
+  --color-badge-disp-text: #3B467A;
+  --color-badge-disp-bg: #EFF2FC;
+  --color-badge-disp-border: #B7C3EE;
+
+  --color-badge-unk-text: #4E5961;
+  --color-badge-unk-bg: #EFF2F5;
+  --color-badge-unk-border: #C8D1D8;
+
+  /* Functional Status */
+  --color-danger: #B3261E;
+  --color-danger-bg: #FDF0ED;
+  --color-danger-border: #F3B3A9;
+
+  /* Typography Scale */
+  --font-serif: var(--font-playfair), "Playfair Display", "Literata", "Georgia", "Times New Roman", serif;
+  --font-sans: var(--font-inter), "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "SF Mono", "Fira Code", "Consolas", monospace;
+
+  --font-size-display: clamp(2.5rem, 4.5vw + 1rem, 4.25rem);
+  --font-size-h1: clamp(2rem, 3vw + 0.75rem, 3rem);
+  --font-size-h2: clamp(1.5rem, 2vw + 0.5rem, 2.25rem);
+  --font-size-h3: clamp(1.25rem, 1.2vw + 0.3rem, 1.625rem);
+  --font-size-h4: 1.25rem;
+  --font-size-lead: clamp(1.125rem, 0.8vw + 0.8rem, 1.35rem);
+  --font-size-body: 1rem;
+  --font-size-small: 0.875rem;
+  --font-size-caption: 0.75rem;
+
+  --line-height-tight: 1.15;
+  --line-height-heading: 1.25;
+  --line-height-body: 1.65;
+
+  /* Spacing Scale */
+  --space-1: 0.25rem;   /* 4px */
+  --space-2: 0.5rem;    /* 8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-5: 1.25rem;   /* 20px */
+  --space-6: 1.5rem;    /* 24px */
+  --space-8: 2rem;      /* 32px */
+  --space-10: 2.5rem;   /* 40px */
+  --space-12: 3rem;     /* 48px */
+  --space-16: 4rem;     /* 64px */
+  --space-20: 5rem;     /* 80px */
+  --space-24: 6rem;     /* 96px */
+
+  /* Layout Containers */
+  --container-max: 1200px;
+  --container-narrow: 760px;
+  --container-wide: 1400px;
+  --gutter-mobile: 1rem;
+  --gutter-desktop: 2rem;
+
+  /* Radii (Subtle, avoiding over-rounded bubbly look) */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+
+  /* Subtle Editorial Shadows (Clean, not heavy) */
+  --shadow-subtle: 0 1px 2px rgba(28, 33, 30, 0.04);
+  --shadow-card: 0 2px 8px rgba(28, 33, 30, 0.06);
+  --shadow-elevated: 0 8px 24px rgba(28, 33, 30, 0.08);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-standard: 240ms cubic-bezier(0.16, 1, 0.3, 1);
+}
