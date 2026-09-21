@@ -18,8 +18,7 @@ export const Footer: React.FC = () => {
               practical trip-planning engine.
             </p>
             <p className="footer-principle">
-              Every destination is independently researched and verified against
-              archaeological, academic, and government records.
+              Destinations are researched using archaeological, academic, government, archival, and other documented sources, with evidence and local traditions clearly distinguished.
             </p>
           </div>
 

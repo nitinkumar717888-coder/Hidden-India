@@ -8,7 +8,7 @@ import {
   Category,
   DestinationImage,
 } from '../db/schema';
-import { eq, and, or, ilike, sql, desc, inArray } from 'drizzle-orm';
+import { eq, and, or, ilike, sql, desc, inArray, notInArray } from 'drizzle-orm';
 import { DifficultyLevelType, EditorialStatus } from '../types/enums';
 
 export interface DiscoveryFilterParams {
@@ -437,11 +437,19 @@ export class DiscoveryService {
    * Fetches latest published destinations.
    * Batch optimized.
    */
-  async getLatestDestinations(limit: number = 6): Promise<EnrichedDestinationCard[]> {
+  async getLatestDestinations(
+    limit: number = 6,
+    excludeIds: string[] = []
+  ): Promise<EnrichedDestinationCard[]> {
     if (!db) return [];
 
+    const conditions = [eq(destinations.editorialStatus, EditorialStatus.PUBLISHED)];
+    if (excludeIds.length > 0) {
+      conditions.push(notInArray(destinations.id, excludeIds));
+    }
+
     const rows = await db.query.destinations?.findMany({
-      where: eq(destinations.editorialStatus, EditorialStatus.PUBLISHED),
+      where: and(...conditions),
       orderBy: [desc(destinations.publishedAt)],
       limit,
     });

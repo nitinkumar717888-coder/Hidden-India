@@ -11,11 +11,18 @@ import { discoveryService } from '@/lib/services/discovery-service';
 export const revalidate = 1800; // ISR revalidation every 30 minutes
 
 export default async function HomePage() {
-  const [categories, featuredDestinations, latestDestinations] = await Promise.all([
+  const featuredDestinations = await discoveryService.getFeaturedDestinations(3);
+  const featuredIds = featuredDestinations.map((f) => f.destination.id);
+
+  const [categories, latestDestinationsRaw] = await Promise.all([
     discoveryService.getAllCategories(),
-    discoveryService.getFeaturedDestinations(3),
-    discoveryService.getLatestDestinations(3),
+    discoveryService.getLatestDestinations(6, featuredIds),
   ]);
+
+  // Strict deduplication: ensure no featured destination appears in latest discoveries
+  const latestDestinations = latestDestinationsRaw
+    .filter((d) => !featuredIds.includes(d.destination.id))
+    .slice(0, 3);
 
   return (
     <>
@@ -26,8 +33,7 @@ export default async function HomePage() {
             <p className="text-eyebrow">Discover the India you weren&apos;t told about</p>
             <h1 className="text-display hero-title">Discover India&apos;s Hidden Places</h1>
             <p className="text-lead hero-subtitle">
-              Forgotten forts. Ancient ruins. Hidden waterfalls.
-              <br className="hide-mobile" /> Lost stories. Unusual places.
+              Forgotten forts, ancient ruins, unusual places and lost stories — researched, mapped, and ready to explore.
             </p>
 
             {/* Primary Search Form connected to /search */}
@@ -211,7 +217,10 @@ export default async function HomePage() {
             <div>
               <span className="text-eyebrow">Practical Road Trip Engine</span>
               <h2 className="text-h2">Answer Every Question Before You Travel</h2>
-              <p className="text-body" style={{ marginTop: '1rem' }}>
+              <p className="text-body" style={{ marginTop: '0.75rem', fontWeight: 600, color: 'var(--color-terracotta)', letterSpacing: '0.04em' }}>
+                DISCOVER &rarr; PLAN &rarr; CALCULATE &rarr; NAVIGATE
+              </p>
+              <p className="text-body" style={{ marginTop: '0.5rem' }}>
                 Most travel websites end at inspiration. Hidden India takes you from curiosity to
                 your destination with practical road trip engineering:
               </p>
@@ -240,16 +249,16 @@ export default async function HomePage() {
 
             <div className="calculator-preview-box">
               <div className="preview-header">
-                <span className="text-label">Example Trip Calculation</span>
-                <span className="badge badge-default">Transparent Math</span>
+                <span className="text-label">Illustrative Trip Calculation</span>
+                <span className="badge badge-default">Illustrative Example</span>
               </div>
               <div className="preview-row">
-                <span>Route</span>
-                <strong>Chandigarh &rarr; Destination</strong>
+                <span>Sample Route</span>
+                <strong>Chandigarh &rarr; Kalesar Colonial Red Iron Bridge</strong>
               </div>
               <div className="preview-row">
                 <span>Round-Trip Distance</span>
-                <span>252 km (estimated)</span>
+                <span>~244 km (illustrative example)</span>
               </div>
               <div className="preview-row">
                 <span>Vehicle & Efficiency</span>
@@ -257,17 +266,17 @@ export default async function HomePage() {
               </div>
               <div className="preview-row">
                 <span>Estimated Fuel</span>
-                <span>16.8 Litres</span>
+                <span>~16.3 Litres</span>
               </div>
               <div className="preview-divider" />
               <div className="preview-row total-row">
-                <span>Estimated Total Cost</span>
+                <span>Illustrative Total Estimate</span>
                 <strong style={{ color: 'var(--color-terracotta)', fontSize: '1.25rem' }}>
                   ₹1,950*
                 </strong>
               </div>
               <p className="preview-disclaimer">
-                *Estimated fuel, verified tolls, and entrance fees. May vary based on driving style and conditions.
+                *Illustrative example for demonstration only. Based on indicative distance (~244 km round-trip), estimated average economy (15 km/L), and typical tolls. Exact calculations use verified coordinates, vehicle specs, and live state fuel tariffs in the Trip Calculator.
               </p>
             </div>
           </div>
