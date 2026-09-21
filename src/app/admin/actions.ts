@@ -2,6 +2,7 @@
 
 import { revalidatePath } from 'next/cache';
 import { destinationService } from '@/lib/services/destination-service';
+import { assertAdminUser } from '@/lib/supabase/server';
 import {
   DifficultyLevelType,
   EditorialStatusType,
@@ -12,6 +13,7 @@ import {
  * Server Action: Create a new destination via the Admin panel.
  */
 export async function createDestinationAction(formData: FormData) {
+  await assertAdminUser();
   const name = formData.get('name') as string;
   const slug = formData.get('slug') as string;
   const shortDescription = formData.get('shortDescription') as string;
@@ -67,6 +69,7 @@ export async function updateDestinationStatusAction(
   destinationId: string,
   newStatus: EditorialStatusType
 ) {
+  await assertAdminUser();
   const result = await destinationService.updateStatus(destinationId, newStatus);
   if (result.success) {
     revalidatePath('/admin/destinations');

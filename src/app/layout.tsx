@@ -16,11 +16,13 @@ const playfair = Playfair_Display({
   display: 'swap',
 });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.in';
+
 export const metadata: Metadata = {
   title: 'Hidden India — Discover the India You Weren’t Told About',
   description:
     'A searchable discovery database and practical trip-planning engine for India’s hidden, forgotten, unusual, historical, cultural, and natural destinations.',
-  metadataBase: new URL('https://hiddenindia.org'),
+  metadataBase: new URL(siteUrl),
   keywords: [
     'Hidden India',
     'Offbeat India',
@@ -37,7 +39,7 @@ export const metadata: Metadata = {
     title: 'Hidden India — Discover the India You Weren’t Told About',
     description:
       'A searchable discovery database and practical trip-planning engine for India’s hidden and forgotten places.',
-    url: 'https://hiddenindia.org',
+    url: siteUrl,
     siteName: 'Hidden India',
     locale: 'en_IN',
     type: 'website',

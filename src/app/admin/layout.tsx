@@ -14,8 +14,11 @@ export const metadata = {
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {
   const authUser = await getCurrentUser();
 
-  // STRICT RBAC: Ordinary authenticated users ('user') are forbidden from /admin
-  if (authUser && authUser.profile.role !== 'admin' && authUser.profile.role !== 'editor') {
+  // STRICT RBAC: Unauthenticated users are redirected to login; ordinary authenticated users ('user') are forbidden from /admin
+  if (!authUser) {
+    redirect('/login?next=/admin');
+  }
+  if (authUser.profile.role !== 'admin' && authUser.profile.role !== 'editor') {
     redirect('/?error=forbidden_admin_access');
   }
   return (
