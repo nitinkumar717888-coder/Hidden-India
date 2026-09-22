@@ -61,7 +61,21 @@ export const SourcesList: React.FC<SourcesListProps> = ({ sources }) => {
                         </svg>
                       </a>
                     ) : (
-                      <span>{source.title}</span>
+                      <div>
+                        <span>{source.title}</span>
+                        <span
+                          className="source-digital-unavailable"
+                          style={{
+                            display: 'block',
+                            fontSize: '0.75rem',
+                            color: 'var(--color-text-muted)',
+                            fontStyle: 'italic',
+                            marginTop: '2px',
+                          }}
+                        >
+                          Digital source unavailable — bibliographic citation retained.
+                        </span>
+                      </div>
                     )}
                   </h3>
                   <span className="source-type-pill">{source.sourceType}</span>

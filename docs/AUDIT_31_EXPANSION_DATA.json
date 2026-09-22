@@ -1,0 +1,2385 @@
+[
+  {
+    "index": 23,
+    "name": "Qutub Minar",
+    "slug": "qutub-minar-delhi",
+    "state": "Delhi",
+    "district": "South Delhi",
+    "locality": "Mehrauli",
+    "latitude": 28.5245,
+    "longitude": 77.1855,
+    "coordinateSource": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Delhi Sultanate (Mamluk Dynasty, 1199–1220 CE, with 14th c. Tughlaq additions)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Epigraphic Inscriptions and Sultanate Chronology",
+          "classification": "DOCUMENTED",
+          "citationNotes": "ASI Epigraphia Indo-Moslemica; Memoir No. 22."
+        },
+        {
+          "title": "Pre-Sultanate Spolia and Architectural Origins",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Inscribed Arabic text over the eastern gateway; confirmed by Cunningham’s Archaeological Survey Reports Vol. I."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Qutb Minar & Adjoining Monuments (Memoir No. 22)",
+        "publisher": "Archaeological Survey of India (ASI)",
+        "url": "https://asi.nic.in",
+        "sourceType": "ARCHAEOLOGICAL",
+        "isDigital": true,
+        "notes": "Monograph by J.A. Page detailing structural survey, epigraphic inscriptions, and conservation history."
+      },
+      {
+        "title": "Delhi: Past and Present",
+        "publisher": "John Murray, London",
+        "sourceType": "GOVERNMENT",
+        "isDigital": false,
+        "notes": "H.C. Fanshawe architectural survey of the Mehrauli enclave. Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "₹50 for Indian citizens; ₹600 for foreign nationals (verified ASI ticketed monument)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "timings": "07:00 to 19:00 daily (Sunrise to Sunset)",
+      "access": "Directly accessible via Mehrauli-Badarpur Road; Qutab Minar Metro Station (Yellow Line) is approx. 1.2 km away with connecting e-rickshaws.",
+      "parking": "Paid automated DMRC/MCD parking facility located directly opposite the complex entrance on Seth Sarai Road (₹50–₹100 for cars)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": true,
+    "priorityReason": "UNESCO World Heritage Site with exhaustive ASI and academic documentation, immense search interest, and abundant Creative Commons / public domain photography.",
+    "internalLinks": [
+      "Delhi Sultanate & Mughal Architecture Corridor",
+      "Mehrauli Archaeological Park",
+      "Purana Qila"
+    ]
+  },
+  {
+    "index": 24,
+    "name": "Red Fort (Lal Qila)",
+    "slug": "red-fort-delhi",
+    "state": "Delhi",
+    "district": "Central Delhi",
+    "locality": "Chandni Chowk, Old Delhi",
+    "latitude": 28.6562,
+    "longitude": 77.241,
+    "coordinateSource": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Mughal Empire (1638–1648 CE, under Emperor Shah Jahan)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Imperial Construction and Layout",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Shahjahannama of Inayat Khan; ASI World Heritage Inscription Dossier 1054."
+        },
+        {
+          "title": "Post-1857 British Military Transformations",
+          "classification": "DOCUMENTED",
+          "citationNotes": "British Library India Office Records; ASI Conservation Management Plan 2007."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "The Red Fort: Monograph and Conservation Report",
+        "publisher": "Archaeological Survey of India (ASI)",
+        "url": "https://asi.nic.in",
+        "sourceType": "ARCHAEOLOGICAL",
+        "isDigital": true,
+        "notes": "Official gazette architectural documentation of the imperial palace sectors."
+      },
+      {
+        "title": "Mughal Architecture: An Outline of Its History and Development",
+        "publisher": "Prestel-Verlag, Munich",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "Monograph by Ebba Koch on Shah Jahan’s palace design. Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "₹50 for Indian citizens; ₹600 for foreign nationals (verified ASI ticketed monument)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "timings": "09:30 to 16:30 (Closed on Mondays)",
+      "access": "Directly facing Netaji Subhash Marg at the eastern terminus of Chandni Chowk; Lal Quila Metro Station (Violet Line) is adjacent to the main ticketing gate.",
+      "parking": "Underground municipal multilevel parking at Parade Ground / Asaf Ali Road near Lahori Gate (₹50–₹120)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": true,
+    "priorityReason": "UNESCO World Heritage Site with exhaustive ASI and academic documentation, immense search interest, and abundant Creative Commons / public domain photography.",
+    "internalLinks": [
+      "Delhi Sultanate & Mughal Architecture Corridor",
+      "Mehrauli Archaeological Park",
+      "Purana Qila"
+    ]
+  },
+  {
+    "index": 25,
+    "name": "Humayun’s Tomb",
+    "slug": "humayuns-tomb-delhi",
+    "state": "Delhi",
+    "district": "South East Delhi",
+    "locality": "Nizamuddin East",
+    "latitude": 28.5933,
+    "longitude": 77.2507,
+    "coordinateSource": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Early Mughal Empire (1565–1572 CE, commissioned by Empress Bega Begum)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Architectural Patronage and Completion",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Akbar Nama of Abul Fazl; ASI World Heritage Inscription No. 232."
+        },
+        {
+          "title": "Preceding Isa Khan Octagonal Tomb Complex",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Persian gateway inscription at Isa Khan complex dated AH 954."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Humayun’s Tomb: Form, Function, and Meaning in Early Mughal Architecture",
+        "publisher": "Muqarnas, E.J. Brill, Leiden",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "Glenn D. Lowry research paper on spatial geometry and dynastic symbolism. — Digital source unavailable — bibliographic citation retained."
+      },
+      {
+        "title": "Aga Khan Trust for Culture: Revitalisation of Humayun’s Tomb",
+        "publisher": "Aga Khan Historic Cities Programme",
+        "url": "https://www.akdn.org",
+        "sourceType": "OTHER",
+        "isDigital": true,
+        "notes": "Comprehensive architectural survey and conservation report on waterworks restoration."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "₹50 for Indian citizens; ₹600 for foreign nationals (verified ASI ticketed monument)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "timings": "06:00 to 18:00 daily (Sunrise to Sunset)",
+      "access": "Located off Mathura Road opposite Hazrat Nizamuddin Dargah corridor; JLN Stadium Metro Station (Violet Line) is 1.5 km away.",
+      "parking": "Designated paid municipal parking lot situated at the main entry gates off Mathura Road (₹50–₹100 for cars)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": true,
+    "priorityReason": "UNESCO World Heritage Site with exhaustive ASI and academic documentation, immense search interest, and abundant Creative Commons / public domain photography.",
+    "internalLinks": [
+      "Delhi Sultanate & Mughal Architecture Corridor",
+      "Mehrauli Archaeological Park",
+      "Purana Qila"
+    ]
+  },
+  {
+    "index": 26,
+    "name": "Purana Qila (Old Fort)",
+    "slug": "purana-qila-delhi",
+    "state": "Delhi",
+    "district": "New Delhi",
+    "locality": "Mathura Road",
+    "latitude": 28.6096,
+    "longitude": 77.2436,
+    "coordinateSource": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Sur Empire & Second Mughal Era (1538–1545 CE, atop 1st Millennium BCE archaeological strata)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Excavated 1000 BCE Occupational Strata",
+          "classification": "DOCUMENTED",
+          "citationNotes": "ASI Excavation Reports (B.B. Lal 1969–1973; ASI Excavation Branch 2013–2018)."
+        },
+        {
+          "title": "Sher Mandal and Death of Emperor Humayun",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Akbar Nama of Abul Fazl; Tarikh-i-Firishta."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Excavations at Purana Qila, New Delhi: Stratigraphic and Ceramic Analysis",
+        "publisher": "Archaeological Survey of India (ASI)",
+        "url": "https://asi.nic.in",
+        "sourceType": "ARCHAEOLOGICAL",
+        "isDigital": true,
+        "notes": "Monograph documenting the discovery of Painted Grey Ware (PGW) and Kushan-Gupta structural levels."
+      },
+      {
+        "title": "History of the Afghan Kings of Delhi (Tarikh-i-Sher Shahi)",
+        "publisher": "Idarah-i Adabiyat-i Delli",
+        "sourceType": "ARCHIVAL",
+        "isDigital": false,
+        "notes": "Abbas Khan Sarwani chronicle of Sher Shah’s citadel reconstruction. — Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "₹25 for Indian citizens; ₹300 for foreign nationals (verified ASI ticketed monument)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "timings": "07:00 to 18:00 daily",
+      "access": "Situated along Mathura Road directly opposite Delhi Zoo; Supreme Court Metro Station (Blue Line) is approx. 2 km away.",
+      "parking": "Designated paid parking lot near the National Zoological Park / Purana Qila main entrance off Mathura Road (₹40–₹80)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": true,
+    "priorityReason": "Strong historical provenance, verified coordinates, verified ticketed access, and high public educational value.",
+    "internalLinks": [
+      "Delhi Sultanate & Mughal Architecture Corridor",
+      "Mehrauli Archaeological Park",
+      "Purana Qila"
+    ]
+  },
+  {
+    "index": 27,
+    "name": "Mehrauli Archaeological Park",
+    "slug": "mehrauli-archaeological-park-delhi",
+    "state": "Delhi",
+    "district": "South Delhi",
+    "locality": "Mehrauli",
+    "latitude": 28.519,
+    "longitude": 77.185,
+    "coordinateSource": "INTACH Delhi Chapter Survey / Delhi Tourism Geographic Database",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Multi-Period (Tomar, Sultanate, Mughal, and Colonial eras, 11th–19th century CE)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "First True Arch in Indian Architecture (Balban’s Tomb)",
+          "classification": "DOCUMENTED",
+          "citationNotes": "ASI Archaeological Survey Report Vol. XX; Percy Brown, Indian Architecture (Islamic Period)."
+        },
+        {
+          "title": "Lodi Era Water Architecture (Rajon Ki Baoli)",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Epigraphia Indo-Moslemica 1919–20, pp. 31–32."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Mehrauli: A Historical Guide and Conservation Master Plan",
+        "publisher": "INTACH Delhi Chapter / DDA",
+        "url": "https://intach.org",
+        "sourceType": "OTHER",
+        "isDigital": true,
+        "notes": "Detailed architectural index of 100+ surveyed structures across the archaeological reserve."
+      },
+      {
+        "title": "Monuments of Delhi: Lasting Splendour of the Great Mughals and Others",
+        "publisher": "Aryan Books International",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "R. Nath analysis of Balban’s tomb arch engineering. Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "Free public entry to main archaeological park trails; specific ASI monument zones adhere to general guidelines",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "timings": "06:00 to 18:30 daily (Dawn to Dusk)",
+      "access": "Main entrance located on Anuvrat Marg close to the Qutub Minar metro station; walking pathways are unpaved in secondary archaeological sectors.",
+      "parking": "Designated public parking near the main DDA gate on Anuvrat Marg / Jamali Kamali approach road (₹30–₹60)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": false,
+    "internalLinks": [
+      "Delhi Sultanate & Mughal Architecture Corridor",
+      "Mehrauli Archaeological Park",
+      "Purana Qila"
+    ]
+  },
+  {
+    "index": 28,
+    "name": "Agrasen Ki Baoli",
+    "slug": "agrasen-ki-baoli-new-delhi",
+    "state": "Delhi",
+    "district": "New Delhi",
+    "locality": "Hailey Lane, near Connaught Place",
+    "latitude": 28.6258,
+    "longitude": 77.225,
+    "coordinateSource": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Medieval Delhi Sultanate (14th century Tughlaq/Lodi reconstruction)",
+    "evidenceBreakdown": {
+      "documented": 1,
+      "tradition": 0,
+      "disputed": 1,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Architectural Dating vs Oral Legend",
+          "classification": "DISPUTED",
+          "citationNotes": "ASI Delhi Circle Conservation Notes; Percy Brown, Islamic Architecture of Delhi."
+        },
+        {
+          "title": "Subterranean Well Shaft and Mosque Arcade",
+          "classification": "DOCUMENTED",
+          "citationNotes": "ASI Monograph on Historic Stepwells of Delhi."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "List of Centrally Protected Monuments: Delhi Circle",
+        "publisher": "Archaeological Survey of India (ASI)",
+        "url": "https://asi.nic.in",
+        "sourceType": "ARCHAEOLOGICAL",
+        "isDigital": true,
+        "notes": "Official notification of protected monument status under Ancient Monuments Act."
+      },
+      {
+        "title": "Water Architecture in South Asia: A Study of Stepwells",
+        "publisher": "Brill Academic Publishers",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "Typological classification of Delhi Sultanate urban subterranean water structures. Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "Free entry (Protected monument maintained by Archaeological Survey of India)",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "timings": "09:00 to 17:30 daily",
+      "access": "Walking access from Hailey Road off Kasturba Gandhi Marg; Barakhamba Road Metro Station (Blue Line) is 700 meters away.",
+      "parking": "Extremely limited street parking on Hailey Lane; visitors advised to park at Connaught Place outer circle or Barakhamba Road multi-level parking (₹40–₹80)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": true,
+    "priorityReason": "Strong historical provenance, verified coordinates, verified ticketed access, and high public educational value.",
+    "internalLinks": [
+      "Delhi Sultanate & Mughal Architecture Corridor",
+      "Mehrauli Archaeological Park",
+      "Purana Qila"
+    ]
+  },
+  {
+    "index": 29,
+    "name": "Safdarjung’s Tomb",
+    "slug": "safdarjungs-tomb-delhi",
+    "state": "Delhi",
+    "district": "New Delhi",
+    "locality": "Lodhi Road",
+    "latitude": 28.5893,
+    "longitude": 77.2106,
+    "coordinateSource": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Late Mughal Empire (1754 CE, commissioned by Nawab Shuja-ud-Daula)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Late Mughal Spolia and Construction",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Asar-us-Sanadid (Sir Syed Ahmad Khan, 1847); confirmed by ASI Conservation Records."
+        },
+        {
+          "title": "Subterranean Sepulchre Chamber",
+          "classification": "DOCUMENTED",
+          "citationNotes": "ASI Monument Inscription Record No. 44."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Safdarjung’s Tomb: Architectural and Historical Monograph",
+        "publisher": "Archaeological Survey of India (ASI)",
+        "url": "https://asi.nic.in",
+        "sourceType": "ARCHAEOLOGICAL",
+        "isDigital": true,
+        "notes": "Detailed architectural drawings and structural condition report."
+      },
+      {
+        "title": "Mughal Architecture: An Outline of Its History and Development (1526–1858)",
+        "publisher": "Prestel-Verlag",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "Ebba Koch analysis of late-Mughal decorative synthesis and marble spolia. Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "₹25 for Indian citizens; ₹300 for foreign nationals (verified ASI ticketed monument)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "timings": "07:00 to 18:00 daily",
+      "access": "Located at the intersection of Lodhi Road and Sri Aurobindo Marg; Jor Bagh Metro Station (Yellow Line) is 300 meters away.",
+      "parking": "Designated paid parking directly outside the main southern entrance on Sri Aurobindo Marg (₹40–₹80 for cars)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": true,
+    "priorityReason": "Strong historical provenance, verified coordinates, verified ticketed access, and high public educational value.",
+    "internalLinks": [
+      "Delhi Sultanate & Mughal Architecture Corridor",
+      "Mehrauli Archaeological Park",
+      "Purana Qila"
+    ]
+  },
+  {
+    "index": 30,
+    "name": "Lodhi Garden Heritage Monuments",
+    "slug": "lodhi-garden-monuments-delhi",
+    "state": "Delhi",
+    "district": "New Delhi",
+    "locality": "Lodhi Road",
+    "latitude": 28.5931,
+    "longitude": 77.2197,
+    "coordinateSource": "Archaeological Survey of India Geodetic Survey / NDMC Heritage Survey",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Sayyid and Lodi Dynasties (1444–1526 CE, with 16th c. Mughal additions)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Bara Gumbad Mosque Stucco Inscriptions",
+          "classification": "DOCUMENTED",
+          "citationNotes": "ASI Delhi Circle Epigraphic Records; Ara, Matsuo (1982)."
+        },
+        {
+          "title": "Pioneering Double Dome of Sikandar Lodi’s Tomb",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Percy Brown, Indian Architecture (Islamic Period), pp. 27–29."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Monuments of Delhi: An Architectural Survey",
+        "publisher": "Archaeological Survey of India (ASI)",
+        "url": "https://asi.nic.in",
+        "sourceType": "ARCHAEOLOGICAL",
+        "isDigital": true,
+        "notes": "Architectural classification of Sayyid and Lodi octagonal and square tomb typologies."
+      },
+      {
+        "title": "Islamic Architecture of the Delhi Sultanate",
+        "publisher": "Oxford University Press",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "Matsuo Ara epigraphic study of Bara Gumbad mosque plaster inscriptions. Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "Free public entry to the park and monument interiors (Maintained by NDMC and ASI)",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "timings": "06:00 to 20:00 daily",
+      "access": "Entrances on Lodhi Road, Amrita Shergill Marg, and Max Mueller Marg; Jor Bagh Metro Station (Yellow Line) is 900 meters away.",
+      "parking": "Designated free public parking areas at Gate No. 1 (Max Mueller Marg) and Gate No. 4 (Lodhi Road)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": false,
+    "internalLinks": [
+      "Delhi Sultanate & Mughal Architecture Corridor",
+      "Mehrauli Archaeological Park",
+      "Purana Qila"
+    ]
+  },
+  {
+    "index": 31,
+    "name": "Amber Fort",
+    "slug": "amber-fort-jaipur",
+    "state": "Rajasthan",
+    "district": "Jaipur",
+    "locality": "Amer",
+    "latitude": 26.9855,
+    "longitude": 75.8513,
+    "coordinateSource": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Kachhwaha Rajput (1592–1727 CE, commenced by Raja Man Singh I)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Epigraphic Inscriptions and Royal Chronology",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Epigraphia Indica; Rajasthan State Archives Bikaner Records."
+        },
+        {
+          "title": "Subterranean Escape Tunnel to Jaigarh",
+          "classification": "DOCUMENTED",
+          "citationNotes": "UNESCO World Heritage Dossier 247rev; Rajasthan Archaeology Technical Report."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Amber Fort: Conservation and Management Plan",
+        "publisher": "Department of Archaeology & Museums, Government of Rajasthan",
+        "url": "https://artandculture.rajasthan.gov.in",
+        "sourceType": "GOVERNMENT",
+        "isDigital": true,
+        "notes": "Official state preservation dossier prepared for UNESCO Hill Forts of Rajasthan inscription."
+      },
+      {
+        "title": "The Rajput Palaces: The Development of an Architectural Style",
+        "publisher": "Yale University Press",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "G.H.R. Tillotson study of Kachhwaha residential and defensive architecture. Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "₹100 for Indian citizens; ₹500 for foreign nationals (verified Rajasthan State Archaeology ticket)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "timings": "08:00 to 17:30 daily; evening sound & light show 19:00 to 21:00",
+      "access": "Located 11 km north of Jaipur on the Delhi-Jaipur highway (NH 248); accessible by public AC bus route 5, private taxi, or hill jeep from Amer town base.",
+      "parking": "Paid parking available at the base near Maota Lake (₹50–₹100 for cars); uphill jeep transit available"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": true,
+    "priorityReason": "Monumental fortified architecture with global recognition, verified ASI/state protection, excellent geographic accuracy, and extensive photographic archives.",
+    "internalLinks": [
+      "bhatner-fort-hanumangarh (Northern Rajasthan desert fort circuit)"
+    ]
+  },
+  {
+    "index": 32,
+    "name": "Hawa Mahal",
+    "slug": "hawa-mahal-jaipur",
+    "state": "Rajasthan",
+    "district": "Jaipur",
+    "locality": "Badi Choupad, Old City",
+    "latitude": 26.9239,
+    "longitude": 75.8267,
+    "coordinateSource": "Department of Archaeology & Museums Rajasthan / Survey of India",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Rajput / Jaipur State (1799 CE, built by Maharaja Sawai Pratap Singh)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Royal Purdah Function and Design",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Dastur Komwar (Jaipur Court Diaries), Rajasthan State Archives Bikaner."
+        },
+        {
+          "title": "Acoustic and Venturi Cooling Principles",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Building and Environment Journal, Vol. 45; INTACH Jaipur Architectural Monograph."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Hawa Mahal: Architectural Study of the Palace of Winds",
+        "publisher": "Department of Archaeology and Museums, Government of Rajasthan",
+        "url": "https://artandculture.rajasthan.gov.in",
+        "sourceType": "GOVERNMENT",
+        "isDigital": true,
+        "notes": "Official measured architectural drawings and wind-ventilation structural analysis."
+      },
+      {
+        "title": "Jaipur: The Making of an Indian City",
+        "publisher": "Oxford University Press",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "Vibhuti Sachdev & Giles Tillotson study of Sawai Jai Singh and Sawai Pratap Singh urban planning. — Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "₹50 for Indian citizens; ₹200 for foreign nationals (verified Rajasthan State Archaeology ticket)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "timings": "09:00 to 17:00 daily",
+      "access": "Located on Hawa Mahal Road in the Old City; Badi Chaupar Metro Station (Pink Line) is 250 meters away.",
+      "parking": "Underground municipal parking at Ramniwas Bagh or Jantar Mantar (₹40–₹80 for cars); pedestrian access along Hawa Mahal Bazaar"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": true,
+    "priorityReason": "Monumental fortified architecture with global recognition, verified ASI/state protection, excellent geographic accuracy, and extensive photographic archives.",
+    "internalLinks": [
+      "bhatner-fort-hanumangarh (Northern Rajasthan desert fort circuit)"
+    ]
+  },
+  {
+    "index": 33,
+    "name": "Mehrangarh Fort",
+    "slug": "mehrangarh-fort-jodhpur",
+    "state": "Rajasthan",
+    "district": "Jodhpur",
+    "locality": "Jodhpur",
+    "latitude": 26.2978,
+    "longitude": 73.0185,
+    "coordinateSource": "Mehrangarh Museum Trust / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Rathore Rajput (Founded 1459 CE by Rao Jodha, expanded 16th–19th century CE)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Foundation Inscription and Citadel Construction",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Marwar re Pargana ri Vigat; Mehrangarh Epigraphic Index No. 1."
+        },
+        {
+          "title": "Sati Handprints at Loha Pol",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Mehrangarh Historical Inscriptions Registry; Tod (1832)."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Mehrangarh Fort: Architectural and Historical Monograph",
+        "publisher": "Mehrangarh Museum Trust, Jodhpur",
+        "url": "https://mehrangarh.org",
+        "sourceType": "MUSEUM",
+        "isDigital": true,
+        "notes": "Definitive architectural survey and inventory of royal Marwar armory, palanquins, and textiles."
+      },
+      {
+        "title": "Annals and Antiquities of Rajasthan, Vol. II",
+        "publisher": "Smith, Elder & Co., London",
+        "sourceType": "GOVERNMENT",
+        "isDigital": false,
+        "notes": "Lieutenant-Colonel James Tod chronicles of Marwar rulers and the founding of Mehrangarh. Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "₹100 for Indian citizens; ₹600 for foreign nationals (verified Mehrangarh Museum Trust tariff)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "timings": "09:00 to 17:00 daily",
+      "access": "Metalled road ascends from the Jodhpur city center via Fort Road; steep pedestrian ramparts ascend from the historic blue quarter (Navchowkiya).",
+      "parking": "Designated paid parking on the upper plateau outside the main fortress entrance gate (₹50–₹100 for cars)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": true,
+    "priorityReason": "Monumental fortified architecture with global recognition, verified ASI/state protection, excellent geographic accuracy, and extensive photographic archives.",
+    "internalLinks": [
+      "bhatner-fort-hanumangarh (Northern Rajasthan desert fort circuit)"
+    ]
+  },
+  {
+    "index": 34,
+    "name": "Jaisalmer Fort",
+    "slug": "jaisalmer-fort-jaisalmer",
+    "state": "Rajasthan",
+    "district": "Jaisalmer",
+    "locality": "Trikuta Hill, Jaisalmer",
+    "latitude": 26.9124,
+    "longitude": 70.9127,
+    "coordinateSource": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Bhati Rajput (Founded 1156 CE by Rawal Jaisal, expanded 14th–17th century CE)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Bhati Dynastic Inscriptions and Founding Date",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Epigraphia Indica Vol. XXVI; Bhati Vamsavali Manuscript."
+        },
+        {
+          "title": "Rare 11th–14th c. Palm Leaf Manuscript Repositories",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Jaisalmer Gyan Bhandar Manuscript Catalog; ASI Western Circle."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Jaisalmer Fort: Conservation Assessment & Living Heritage Report",
+        "publisher": "Archaeological Survey of India (ASI) / INTACH",
+        "url": "https://asi.nic.in",
+        "sourceType": "ARCHAEOLOGICAL",
+        "isDigital": true,
+        "notes": "Structural engineering study on hill slope drainage and medieval stone bastion conservation."
+      },
+      {
+        "title": "Gazetteer of Marwar, Mallani and Jeysulmere",
+        "publisher": "Superintendent of Government Printing, Calcutta",
+        "sourceType": "GOVERNMENT",
+        "isDigital": false,
+        "notes": "C.K.M. Walter historical chronology of the Bhati dynasty. Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "Free entry to fort residential streets and gates; specific entry fees apply for the Fort Palace Museum (₹100 Indian / ₹500 Foreign) and Jain Temples",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "timings": "Fort streets accessible 24 hours (living city); Palace Museum open 09:00 to 18:00 daily",
+      "access": "Walking access ascends through four monumental gates (Akhai Pol, Ganesh Pol, Suraj Pol, and Hawa Pol); accessible by auto-rickshaw to Gopa Chowk base.",
+      "parking": "Designated parking located at the foot of Trikuta Hill near Gopa Chowk / Dhibba Para (₹50–₹100 for cars); no heavy vehicles allowed inside fort gates"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": true,
+    "priorityReason": "Monumental fortified architecture with global recognition, verified ASI/state protection, excellent geographic accuracy, and extensive photographic archives.",
+    "internalLinks": [
+      "bhatner-fort-hanumangarh (Northern Rajasthan desert fort circuit)"
+    ]
+  },
+  {
+    "index": 35,
+    "name": "Chittorgarh Fort",
+    "slug": "chittorgarh-fort-chittorgarh",
+    "state": "Rajasthan",
+    "district": "Chittorgarh",
+    "locality": "Chittorgarh",
+    "latitude": 24.8879,
+    "longitude": 74.6453,
+    "coordinateSource": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Mori & Sisodia Rajput (7th–16th century CE; Vijay Stambha 1448 CE)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Epigraphic Inscriptions on the Vijay Stambha",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Epigraphia Indica; Sarda (1917); ASI Inscription Inventory No. 12."
+        },
+        {
+          "title": "Historic Sieges and Jauhar Traditions",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Khazain-ul-Futuh (Amir Khusrau); Akbarnama (Abul Fazl); Baburnama."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Chittorgarh Fort: Monograph and Architectural Documentation",
+        "publisher": "Archaeological Survey of India (ASI)",
+        "url": "https://asi.nic.in",
+        "sourceType": "ARCHAEOLOGICAL",
+        "isDigital": true,
+        "notes": "Comprehensive survey of monuments of national importance across the 700-acre plateau."
+      },
+      {
+        "title": "Maharana Kumbha: Sovereign, Soldier, Scholar",
+        "publisher": "Scottish Mission Industries Company, Ajmer",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "Har Bilas Sarda definitive historical monograph on the Vijay Stambha and 15th-century Mewar fortifications. — Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "₹40 for Indian citizens; ₹600 for foreign nationals (verified ASI ticketed monument)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "timings": "06:00 to 18:30 daily (Sunrise to Sunset)",
+      "access": "Ascent road passes through seven fortified historic gateways (Padan Pol, Bhairon Pol, Hanuman Pol, Ganesh Pol, Jorla Pol, Laxman Pol, and Ram Pol); private car or auto hire recommended due to vast internal distances.",
+      "parking": "Vehicles permitted inside the fort perimeter; multiple parking bays at Vijay Stambha, Padmini Palace, and Gaumukh Reservoir (₹30–₹70 for cars)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": true,
+    "priorityReason": "Monumental fortified architecture with global recognition, verified ASI/state protection, excellent geographic accuracy, and extensive photographic archives.",
+    "internalLinks": [
+      "bhatner-fort-hanumangarh (Northern Rajasthan desert fort circuit)"
+    ]
+  },
+  {
+    "index": 36,
+    "name": "Kumbhalgarh Fort",
+    "slug": "kumbhalgarh-fort-rajsamand",
+    "state": "Rajasthan",
+    "district": "Rajsamand",
+    "locality": "Kumbhalgarh",
+    "latitude": 25.1479,
+    "longitude": 73.5872,
+    "coordinateSource": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Sisodia Rajput (1443–1458 CE, commissioned by Maharana Kumbha, architect Mandan)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Architect Mandan and Architectural Treatises",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Kumbhalgarh Inscription dated Samvat 1517 (1460 CE); Epigraphia Indica Vol. XXIV."
+        },
+        {
+          "title": "Birthplace of Maharana Pratap",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Mewar Vamshavali; G.N. Sharma, Mewar and the Mughal Emperors."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Kumbhalgarh: The Great Citadel of Mewar",
+        "publisher": "Archaeological Survey of India (ASI)",
+        "url": "https://asi.nic.in",
+        "sourceType": "ARCHAEOLOGICAL",
+        "isDigital": true,
+        "notes": "Survey of national protected monuments, stone rampart masonry, and structural layout."
+      },
+      {
+        "title": "Vastu Shastra and the Treatises of Mandan",
+        "publisher": "Motilal Banarsidass, Delhi",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "Academic study of architect Mandan’s classic architectural text Rajavallabha detailing the planning of Kumbhalgarh. — Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "₹40 for Indian citizens; ₹600 for foreign nationals (verified ASI ticketed monument)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "timings": "09:00 to 18:00 daily; evening light & sound show 18:45 to 19:45",
+      "access": "Located 85 km northwest of Udaipur via NH 76 and state highway; winding mountain ghat roads require careful driving.",
+      "parking": "Designated parking bay at the base of Ram Pol entrance gate (₹50–₹100 for cars)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": true,
+    "priorityReason": "Monumental fortified architecture with global recognition, verified ASI/state protection, excellent geographic accuracy, and extensive photographic archives.",
+    "internalLinks": [
+      "bhatner-fort-hanumangarh (Northern Rajasthan desert fort circuit)"
+    ]
+  },
+  {
+    "index": 37,
+    "name": "Chand Baori",
+    "slug": "chand-baori-abhaneri",
+    "state": "Rajasthan",
+    "district": "Dausa",
+    "locality": "Abhaneri",
+    "latitude": 27.0073,
+    "longitude": 76.6064,
+    "coordinateSource": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Nikumbha Dynasty / Gurjara-Pratihara Era (8th–9th century CE, King Chanda)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Gurjara-Pratihara Sculpture Style and Epigraphy",
+          "classification": "DOCUMENTED",
+          "citationNotes": "ASI Jaipur Circle Architectural Analysis; Meister, Michael W., Indian Temple Architecture."
+        },
+        {
+          "title": "Mughal-Era Upper Arcades Addition",
+          "classification": "DOCUMENTED",
+          "citationNotes": "ASI Monument Conservation Dossier: Chand Baori, Abhaneri."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Stepwells of Western India: Typological and Hydraulic Analysis",
+        "publisher": "Archaeological Survey of India (ASI) Jaipur Circle",
+        "url": "https://asijaipurcircle.nic.in",
+        "sourceType": "ARCHAEOLOGICAL",
+        "isDigital": true,
+        "notes": "Structural report on the hydraulic geometry and volcanic stone masonry of Chand Baori."
+      },
+      {
+        "title": "The Stepwells of India: Structural Architecture of Subterranean Water",
+        "publisher": "Prestel Publishing, Munich",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "Monograph by Morna Livingston documenting the mathematical symmetry of Abhaneri. Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "₹25 for Indian citizens; ₹300 for foreign nationals (verified ASI ticketed monument)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "timings": "07:00 to 18:00 daily",
+      "access": "Turn off Jaipur-Agra National Highway (NH 21) at Gothda/Sikandra junction; 7 km north on rural road. Bandikui railway station is 8 km away.",
+      "parking": "Designated parking ground directly adjacent to the entrance gate of the monument in Abhaneri village (₹30–₹50)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": true,
+    "priorityReason": "Monumental fortified architecture with global recognition, verified ASI/state protection, excellent geographic accuracy, and extensive photographic archives.",
+    "internalLinks": [
+      "bhatner-fort-hanumangarh (Northern Rajasthan desert fort circuit)"
+    ]
+  },
+  {
+    "index": 38,
+    "name": "Rakhigarhi Archaeological Site",
+    "slug": "rakhigarhi-archaeological-site-hisar",
+    "state": "Haryana",
+    "district": "Hisar",
+    "locality": "Rakhigarhi",
+    "latitude": 29.2894,
+    "longitude": 76.1156,
+    "coordinateSource": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Indus Valley Civilization (Early to Mature Harappan, ca. 2600–1900 BCE)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Radiocarbon Chronology and Stratigraphy",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Nath, Amarendra (2014) ASI Memoir; Shinde et al. (2018)."
+        },
+        {
+          "title": "Ancient DNA and Skeletal Biology",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Cell 179(3), pp. 729–735 (2019)."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Excavations at Rakhigarhi (1997–2000): Archaeological Memoir",
+        "publisher": "Archaeological Survey of India (ASI)",
+        "url": "https://asi.nic.in",
+        "sourceType": "ARCHAEOLOGICAL",
+        "isDigital": true,
+        "notes": "Comprehensive structural and stratigraphical report on Mounds 1, 2, and 6 by Dr. Amarendra Nath."
+      },
+      {
+        "title": "An Ancient Harappan Genome Lacks Ancestry from Steppe Pastoralists or Iranian Farmers",
+        "publisher": "Cell, Vol. 179, Issue 3",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "Vasant Shinde, David Reich et al. landmark scientific study analyzing ancient DNA extracted from Rakhigarhi cemetery excavations. — Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "Free entry to archaeological mounds; small nominal admission for State On-Site Interpretation Centre",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "timings": "09:00 to 17:00 daily",
+      "access": "Located 25 km north of Hansi and 50 km east of Hisar city via Jind-Hansi Highway (SH 12); best reached by private taxi from Hisar or Delhi (approx. 160 km).",
+      "parking": "Designated parking area adjacent to the Rakhigarhi State Archaeological Museum and Site Office"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": true,
+    "priorityReason": "Largest Harappan civilization metropolis; pivotal archaeological interest, recently excavated ASI-protected mounds, and clear editorial narrative.",
+    "internalLinks": []
+  },
+  {
+    "index": 39,
+    "name": "Firoz Shah Palace Complex",
+    "slug": "firoz-shah-palace-hisar",
+    "state": "Haryana",
+    "district": "Hisar",
+    "locality": "Hisar",
+    "latitude": 29.1539,
+    "longitude": 75.7227,
+    "coordinateSource": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Tughlaq Dynasty (1354 CE, founded by Sultan Firoz Shah Tughlaq)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Contemporary Foundation Account in Tarikh-i-Firoz Shahi",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Tarikh-i-Firoz Shahi (Afif), pp. 124–128; Elliot and Dowson Vol. III."
+        },
+        {
+          "title": "Mauryan Polished Pillar (Lat)",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Cunningham, Alexander (1875) Archaeological Survey Reports Vol. V, pp. 140–142."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Monuments of National Importance: Haryana Circle",
+        "publisher": "Archaeological Survey of India (ASI)",
+        "url": "https://asi.nic.in",
+        "sourceType": "ARCHAEOLOGICAL",
+        "isDigital": true,
+        "notes": "Monograph documenting the Tughlaq fortifications, Lat ki Masjid, and Gujri Mahal."
+      },
+      {
+        "title": "Tarikh-i-Firoz Shahi",
+        "publisher": "Bibliotheca Indica, Asiatic Society of Bengal, Calcutta",
+        "sourceType": "ARCHIVAL",
+        "isDigital": false,
+        "notes": "Contemporary chronicle by Shams-i Siraj Afif recording the foundation of Hisar-e-Firoza and digging of royal canals. — Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "Free entry (Protected monument maintained by Archaeological Survey of India)",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "timings": "09:00 to 17:00 daily",
+      "access": "Situated directly off Rajgarh Road near the main Hisar City bus terminal; Hisar Railway Station is approx. 2 km away.",
+      "parking": "Municipal parking space located near the outer Talaqi Gate and bus stand perimeter (₹20–₹50)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": false,
+    "internalLinks": [
+      "tosham-rock-inscription-bhiwani (Southern Haryana circuit)",
+      "jal-mahal-narnaul"
+    ]
+  },
+  {
+    "index": 40,
+    "name": "Kabuli Bagh Mosque",
+    "slug": "kabuli-bagh-mosque-panipat",
+    "state": "Haryana",
+    "district": "Panipat",
+    "locality": "Old City, Panipat",
+    "latitude": 29.3958,
+    "longitude": 76.9822,
+    "coordinateSource": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Early Mughal Empire (1527 CE, commissioned by Emperor Babur)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Persian Foundation Epigraph of Babur",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Epigraphia Indo-Moslemica 1913–14, pp. 14–16; ASI Delhi/Chandigarh Circle."
+        },
+        {
+          "title": "Chabutara-i-Fateh Mubarak Inscription of Humayun",
+          "classification": "DOCUMENTED",
+          "citationNotes": "ASI Inscription Inventory: Haryana Circle No. 19."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Babur: Diwan and Architectural Foundations in Hindustan",
+        "publisher": "Archaeological Survey of India (ASI)",
+        "url": "https://asi.nic.in",
+        "sourceType": "ARCHAEOLOGICAL",
+        "isDigital": true,
+        "notes": "Monograph documenting the Persian foundation epigraph and brick vaulted dome structure."
+      },
+      {
+        "title": "The Baburnama: Memoirs of Babur, Prince and Emperor",
+        "publisher": "Modern Library, New York",
+        "sourceType": "ARCHIVAL",
+        "isDigital": false,
+        "notes": "W.M. Thackston translation describing the layout of the garden and mosque following the defeat of Ibrahim Lodi. — Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "Free entry (Protected monument maintained by Archaeological Survey of India)",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "timings": "07:00 to 18:00 daily (Sunrise to Sunset)",
+      "access": "Located in the eastern sector of Panipat city, approx. 2 km from the Grand Trunk Road (NH 44); Panipat Junction railway station is 3 km away.",
+      "parking": "Limited street parking available along the approach lane off Kabuli Bagh Road (₹20–₹40)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": false,
+    "internalLinks": []
+  },
+  {
+    "index": 41,
+    "name": "Brahma Sarovar",
+    "slug": "brahma-sarovar-kurukshetra",
+    "state": "Haryana",
+    "district": "Kurukshetra",
+    "locality": "Thanesar",
+    "latitude": 29.9597,
+    "longitude": 76.8322,
+    "coordinateSource": "Kurukshetra Development Board / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Ancient Sacred Water Body (Recorded in 11th c. Kitab al-Hind, modernized 20th c.)",
+    "evidenceBreakdown": {
+      "documented": 1,
+      "tradition": 1,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Alberuni’s 1030 CE Chronological Witness",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Sachau, Edward C. (1910) Vol. II, p. 145."
+        },
+        {
+          "title": "Mythological Creation vs Modern Hydraulic Expansion",
+          "classification": "LOCAL_TRADITION",
+          "citationNotes": "Kurukshetra Development Board Gazetted History; Phadke (1990)."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Alberuni’s India: An Account of the Religion, Philosophy, Literature, Geography and Astrology",
+        "publisher": "Kegan Paul, Trench, Trübner & Co., London",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "Edward C. Sachau translation documenting Alberuni’s 1030 CE eye-witness record of the Thanesar reservoir. — Digital source unavailable — bibliographic citation retained."
+      },
+      {
+        "title": "Kurukshetra: Political and Cultural History",
+        "publisher": "B.R. Publishing Corporation, Delhi",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "H.A. Phadke comprehensive study of Kurukshetra tirtha archaeology. Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "Free public entry to the sarovar, ghats, and island temples",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "timings": "Open 24 hours daily; illuminated evening aarti ceremonies held at sunset",
+      "access": "Located in the heart of Kurukshetra (Thanesar) off Pehowa Road; Kurukshetra Junction railway station is 3 km away.",
+      "parking": "Extensive paved parking plazas maintained by the Kurukshetra Development Board near the North and South ghats (₹30–₹50)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": false,
+    "internalLinks": [
+      "sheikh-chehli-tomb-kurukshetra (Kurukshetra heritage circuit)"
+    ]
+  },
+  {
+    "index": 42,
+    "name": "Jyotisar",
+    "slug": "jyotisar-kurukshetra",
+    "state": "Haryana",
+    "district": "Kurukshetra",
+    "locality": "Jyotisar",
+    "latitude": 29.9672,
+    "longitude": 76.7644,
+    "coordinateSource": "Kurukshetra Development Board / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Ancient Tirtha Landscape (Modern monumentation 1924 CE onwards)",
+    "evidenceBreakdown": {
+      "documented": 1,
+      "tradition": 1,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Sacred Epic Association vs Empirical Evidence",
+          "classification": "LOCAL_TRADITION",
+          "citationNotes": "Mahabharata (Bhishma Parva); Cunningham, Alexander (1882); Phadke (1990)."
+        },
+        {
+          "title": "20th Century Darbhanga Monumentation",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Kurukshetra Development Board Gazette Records."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Kurukshetra: The Cradle of Indian Culture",
+        "publisher": "Kurukshetra University Press",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "U.V. Singh archaeological survey of pilgrimage tirthas within the 48-Kos circumambulation circuit. — Digital source unavailable — bibliographic citation retained."
+      },
+      {
+        "title": "Archaeological Survey of India Reports: Northern India Vol. XIV",
+        "publisher": "Government Central Press, Simla",
+        "sourceType": "ARCHAEOLOGICAL",
+        "isDigital": false,
+        "notes": "Alexander Cunningham survey of Thanesar and Jyotisar ancient remains. Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "Free entry to the sacred grounds and banyan tree shrine; ticketed evening sound & light show (₹50)",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "timings": "06:00 to 20:00 daily; evening multimedia sound & light show at 19:00",
+      "access": "Located 8 km west of Kurukshetra city along the Kurukshetra-Pehowa Road (SH 6); frequent auto-rickshaws and local buses available from Kurukshetra bus stand.",
+      "parking": "Designated parking plaza across the road from the main Jyotisar complex entrance (₹30–₹50 for cars)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": false,
+    "internalLinks": [
+      "sheikh-chehli-tomb-kurukshetra (Kurukshetra heritage circuit)"
+    ]
+  },
+  {
+    "index": 43,
+    "name": "Pinjore Gardens (Yadavindra Gardens)",
+    "slug": "pinjore-gardens-panchkula",
+    "state": "Haryana",
+    "district": "Panchkula",
+    "locality": "Pinjore",
+    "latitude": 30.7942,
+    "longitude": 76.915,
+    "coordinateSource": "Haryana Tourism / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Mughal Empire (17th century CE, laid out by Fidai Khan; 18th c. Patiala additions)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Fidai Khan Imperial Foundation",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Maasir-i-Alamgiri (Saqi Mustad Khan); Wescoat (1996)."
+        },
+        {
+          "title": "Patiala State Restoration and Renaming",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Punjab State Archives Patiala Records; Haryana Gazetteers Ambala District."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Mughal Gardens: Sources, Places, Representations, and Prospects",
+        "publisher": "Dumbarton Oaks Research Library and Collection, Washington, D.C.",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "James L. Wescoat Jr. study of Mughal hydraulic engineering at Pinjore. Digital source unavailable — bibliographic citation retained."
+      },
+      {
+        "title": "Haryana Tourism Official Heritage Guide: Pinjore Enclave",
+        "publisher": "Haryana Tourism Corporation",
+        "url": "https://haryanatourism.gov.in",
+        "sourceType": "OFFICIAL_TOURISM",
+        "isDigital": true,
+        "notes": "Official historical and visitor parameters for the Yadavindra Gardens heritage complex."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "₹25 for Indian citizens; ₹100 for foreign nationals (verified Haryana Tourism ticket)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "timings": "07:00 to 21:00 daily; illuminated fountains and pathways operate post-sunset",
+      "access": "Located along Old Kalka-Shimla Highway (NH 22) in Pinjore, 22 km from Chandigarh; frequent direct suburban buses and private taxis available.",
+      "parking": "Extensive multi-tier paved parking lot directly outside the main entrance gates off the Kalka highway (₹50 for cars)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": true,
+    "priorityReason": "17th-century Mughal terraced charbagh by Fadai Khan; adjacent to Bhima Devi Temple Complex (existing core destination), highly photographed.",
+    "internalLinks": [
+      "bhima-devi-temple-pinjore (adjacent)",
+      "bassi-baoli-pinjore (same Mughal catchment)"
+    ]
+  },
+  {
+    "index": 44,
+    "name": "Kangra Fort",
+    "slug": "kangra-fort-kangra",
+    "state": "Himachal Pradesh",
+    "district": "Kangra",
+    "locality": "Old Kangra",
+    "latitude": 32.0886,
+    "longitude": 76.2575,
+    "coordinateSource": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Ancient Katoch Rajput foundation (Pre-medieval to 19th c. CE, Jahangiri additions 1620 CE)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Medieval Sieges and Epigraphic Gates",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Tuzuk-i-Jahangiri (Memoirs of Jahangir); Epigraphia Indo-Moslemica; Hutchison & Vogel (1933)."
+        },
+        {
+          "title": "1905 Earthquake Devastation",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Middlemiss, C.S. (1910) The Kangra Earthquake of 4th April 1905, Memoirs of the GSI Vol. 38."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "History of the Panjab Hill States, Vol. I",
+        "publisher": "Superintendent Government Printing, Lahore",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "J. Hutchison and J.Ph. Vogel authoritative historical chronology of the Katoch rulers of Kangra. — Digital source unavailable — bibliographic citation retained."
+      },
+      {
+        "title": "Kangra Fort: Archaeological Survey and Monument Guide",
+        "publisher": "Archaeological Survey of India (ASI) Shimla Circle",
+        "url": "https://asishimlacircle.gov.in",
+        "sourceType": "ARCHAEOLOGICAL",
+        "isDigital": true,
+        "notes": "Comprehensive survey of surviving gateways, Ambika temple ruins, and post-1905 earthquake conservation."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "₹25 for Indian citizens; ₹300 for foreign nationals (verified ASI ticketed monument)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "timings": "09:00 to 18:00 daily",
+      "access": "Located in Old Kangra, 3 km from Kangra town and 20 km south of Dharamshala; steep stepped cobbled path ascends through the seven gates.",
+      "parking": "Designated parking ground at the base of the fort adjacent to the Maharaja Sansar Chand Museum (₹40–₹80)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": true,
+    "priorityReason": "Oldest recorded fort in the Himalayas with Trigarta lineage; directly pairs with Masrur rock-cut temples, extensive ASI documentation and public photography.",
+    "internalLinks": [
+      "masrur-rock-cut-temples-kangra (Kangra Valley corridor)",
+      "pragpur-heritage-village-kangra (Kangra heritage)"
+    ]
+  },
+  {
+    "index": 45,
+    "name": "Viceregal Lodge (Rashtrapati Niwas)",
+    "slug": "viceregal-lodge-shimla",
+    "state": "Himachal Pradesh",
+    "district": "Shimla",
+    "locality": "Observatory Hill, Shimla",
+    "latitude": 31.1042,
+    "longitude": 77.1425,
+    "coordinateSource": "Indian Institute of Advanced Study / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "British Colonial Era (1888 CE, designed by Henry Irwin under Lord Dufferin)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Architectural Blueprints and Construction",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Public Works Department Proceedings, Government of India (1884–1889); National Archives of India."
+        },
+        {
+          "title": "Historic 1945 Simla Conference and Partition Negotiations",
+          "classification": "DOCUMENTED",
+          "citationNotes": "The Transfer of Power 1942–47 (Manserg & Lumby, HMSO London); IIAS Historical Archives."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Imperial Simla: The Political Culture of the Raj",
+        "publisher": "Oxford University Press",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "Pamela Kanwar historical monograph on the architectural development of Observatory Hill. — Digital source unavailable — bibliographic citation retained."
+      },
+      {
+        "title": "Indian Institute of Advanced Study: Heritage and Architecture Monograph",
+        "publisher": "IIAS Rashtrapati Niwas, Shimla",
+        "url": "https://www.iias.ac.in",
+        "sourceType": "ACADEMIC",
+        "isDigital": true,
+        "notes": "Detailed architectural drawings, teak interior woodwork, and electric heritage documentation."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "₹50 for Indian citizens (garden entry); ₹100–₹200 for guided interior museum tour (verified IIAS tariff)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "timings": "09:30 to 17:30 daily (Closed on Mondays)",
+      "access": "Located 3 km west of the Shimla Ridge / Mall Road; accessible by local bus or private taxi to the entrance barriers, followed by a short walk through pine woods.",
+      "parking": "Designated parking bay near the lower entrance gates on Observatory Hill (₹50–₹100 for cars)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": false,
+    "internalLinks": []
+  },
+  {
+    "index": 46,
+    "name": "Christ Church",
+    "slug": "christ-church-shimla",
+    "state": "Himachal Pradesh",
+    "district": "Shimla",
+    "locality": "The Ridge, Shimla",
+    "latitude": 31.1048,
+    "longitude": 77.1755,
+    "coordinateSource": "Diocese of Amritsar / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "British Colonial Neo-Gothic (1844–1857 CE, designed by J.T. Boileau)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Consecration Date and Foundation Epigraph",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Diocese of Amritsar Church Registry; Buck, E.J. (1904), pp. 112–115."
+        },
+        {
+          "title": "Stained Glass Design by Lockwood Kipling",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Royal Institute of British Architects Archive; Simla Heritage Advisory Committee Report."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Simla Past and Present",
+        "publisher": "Minerva Book Shop, Simla",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "Edward J. Buck historical record of the construction, consecration, and memorial tablets of Christ Church. — Digital source unavailable — bibliographic citation retained."
+      },
+      {
+        "title": "Heritage Inventory of Centrally and State Protected Monuments in Himachal Pradesh",
+        "publisher": "Department of Language, Art and Culture, Himachal Pradesh",
+        "url": "https://himachal.nic.in",
+        "sourceType": "GOVERNMENT",
+        "isDigital": true,
+        "notes": "Architectural assessment of The Ridge heritage zone and colonial stained glass preservation."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "Free entry (Visitors requested to maintain quiet decorum; photography restricted inside during service)",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "timings": "08:00 to 18:00 daily; Sunday service held at 11:00 AM",
+      "access": "Located at the eastern end of The Ridge; accessible by walking from Mall Road or taking the municipal passenger lift from Cart Road.",
+      "parking": "No vehicular traffic allowed on The Ridge or Mall Road (pedestrian heritage zone); parking at Lift Multi-Level Parking on Cart Road (₹60–₹120)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": false,
+    "internalLinks": []
+  },
+  {
+    "index": 47,
+    "name": "Hidimba Devi Temple",
+    "slug": "hidimba-devi-temple-manali",
+    "state": "Himachal Pradesh",
+    "district": "Kullu",
+    "locality": "Dhungri Forest, Manali",
+    "latitude": 32.2483,
+    "longitude": 77.1806,
+    "coordinateSource": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Kullu Rajas (1553 CE, commissioned by Raja Bahadur Singh)",
+    "evidenceBreakdown": {
+      "documented": 1,
+      "tradition": 1,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Doorway Dedication Inscription (1553 CE)",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Epigraphia Indica; Vogel, J.Ph. (1911) ASI Memoir."
+        },
+        {
+          "title": "Epic Mahabharata Association and Indigenous Cult",
+          "classification": "LOCAL_TRADITION",
+          "citationNotes": "Kullu District Gazetteer; Singh, Mian Goverdhan (1998)."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Antiquities of Indian Tibet and the Panjab Hill States",
+        "publisher": "Archaeological Survey of India (ASI)",
+        "url": "https://asi.nic.in",
+        "sourceType": "ARCHAEOLOGICAL",
+        "isDigital": true,
+        "notes": "J. Ph. Vogel epigraphic study deciphering the wooden doorway inscription of Raja Bahadur Singh."
+      },
+      {
+        "title": "Wooden Temples of Himachal Pradesh",
+        "publisher": "Indus Publishing Company, New Delhi",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "Mian Goverdhan Singh architectural survey of pagoda and kath-kuni religious shrines. Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "Free entry to the temple and surrounding Dhungri forest sanctuary",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "timings": "08:00 to 18:00 daily",
+      "access": "Located 2 km northwest of Manali town center (Mall Road); easily reached on foot via a pleasant uphill walk through Dhungri village or by auto-rickshaw.",
+      "parking": "Designated municipal parking ground outside the Dhungri forest barrier (₹50–₹100 for cars)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": true,
+    "priorityReason": "Exquisite 1553 CE pagoda-style timber temple with verifiable Raja Bahadur Singh inscription; strong Himalayan thematic link with existing Himachal destinations.",
+    "internalLinks": [
+      "gondhla-tower-fort-lahaul (across Rohtang / Atal Tunnel)",
+      "tabo-monastic-meditation-caves-spiti"
+    ]
+  },
+  {
+    "index": 48,
+    "name": "Golden Temple (Sri Harmandir Sahib)",
+    "slug": "golden-temple-amritsar",
+    "state": "Punjab",
+    "district": "Amritsar",
+    "locality": "Old City, Amritsar",
+    "latitude": 31.61998,
+    "longitude": 74.8765,
+    "coordinateSource": "SGPC Historical Directorate / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Sikh Era (Foundation 1589 CE by Guru Arjan; gold cladding 1830 CE by Maharaja Ranjit Singh)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Installation of the Adi Granth (1604 CE)",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Bansavalinama (Kesar Singh Chhibber); Grewal, J.S. (1990)."
+        },
+        {
+          "title": "Maharaja Ranjit Singh Gold Inlay Inscription",
+          "classification": "DOCUMENTED",
+          "citationNotes": "SGPC Historical Inscription Catalog No. 1; Singh, Khushwant (1962)."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Sri Harmandir Sahib: Golden Temple Historical Dossier",
+        "publisher": "Shiromani Gurdwara Parbandhak Committee (SGPC)",
+        "url": "https://sgpc.net",
+        "sourceType": "OTHER",
+        "isDigital": true,
+        "notes": "Authoritative archival records of Sikh Gurus, Adi Granth installation, and architectural restoration."
+      },
+      {
+        "title": "The Sikhs of the Punjab (The New Cambridge History of India)",
+        "publisher": "Cambridge University Press",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "J.S. Grewal comprehensive historical study of Sikh institutions and state formation. — Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "Free entry to all visitors of all backgrounds (Community voluntary donation basis; shoes must be deposited, head covered)",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "timings": "Open 24 hours daily (Shrine sanctum open approx. 03:00 to 22:30)",
+      "access": "Heritage Street pedestrian walkway connects directly from Town Hall / Saragarhi car park; Amritsar Junction railway station is 2.5 km away.",
+      "parking": "Extensive multi-level parking facility at Saragarhi Memorial Car Park on Heritage Street (₹50–₹100 for cars)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": true,
+    "priorityReason": "Paramount spiritual and architectural icon of Punjab; exceptional cultural reverence, rich archival provenance (SGPC/British Library), and high public interest.",
+    "internalLinks": [
+      "qila-mubarak-bathinda (Malwa / Majha defense axis)",
+      "faridkot-raj-mahal-clock-tower"
+    ]
+  },
+  {
+    "index": 49,
+    "name": "Jallianwala Bagh Memorial",
+    "slug": "jallianwala-bagh-amritsar",
+    "state": "Punjab",
+    "district": "Amritsar",
+    "locality": "Old City, Amritsar",
+    "latitude": 31.6206,
+    "longitude": 74.8797,
+    "coordinateSource": "Jallianwala Bagh National Memorial Trust / Survey of India",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Modern Indian History (Massacre 13 April 1919; National Memorial established 1951)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Hunter Commission Transcripts and Evidence",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Disorders Inquiry Committee Vol. III; National Archives of India Home Political Records."
+        },
+        {
+          "title": "Preserved Bullet Impacts and Physical Memorial",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Jallianwala Bagh Memorial Trust Act 1951; ASI Conservation Records."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Report of the Disorders Inquiry Committee (Hunter Commission Report)",
+        "publisher": "Superintendent Government Printing, Calcutta",
+        "sourceType": "GOVERNMENT",
+        "isDigital": false,
+        "notes": "Official British inquiry record containing testimony of Brigadier-General Dyer and civil witnesses. — Digital source unavailable — bibliographic citation retained."
+      },
+      {
+        "title": "Punjab Disturbances 1919: Indian National Congress Inquiry Committee Report",
+        "publisher": "Indian National Congress, All India Congress Committee",
+        "sourceType": "ARCHIVAL",
+        "isDigital": false,
+        "notes": "Field evidence and victim testimonies compiled by Mahatma Gandhi, M.R. Jayakar, and C.R. Das. — Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "Free entry to the public memorial gardens and museum galleries",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "timings": "06:30 to 19:30 daily (Summer); 07:00 to 18:30 daily (Winter)",
+      "access": "Walking access via Heritage Street walkway connecting from Golden Temple; Amritsar Junction railway station is 3 km away.",
+      "parking": "Use Saragarhi multi-level parking on Heritage Street; no vehicles allowed within the pedestrian precinct"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": false,
+    "internalLinks": [
+      "qila-mubarak-bathinda (Malwa / Majha defense axis)",
+      "faridkot-raj-mahal-clock-tower"
+    ]
+  },
+  {
+    "index": 50,
+    "name": "Gobindgarh Fort",
+    "slug": "gobindgarh-fort-amritsar",
+    "state": "Punjab",
+    "district": "Amritsar",
+    "locality": "Old City, Amritsar",
+    "latitude": 31.6289,
+    "longitude": 74.8647,
+    "coordinateSource": "Punjab Heritage & Tourism Promotion Board / Survey of India",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Sikh Empire (Bhangi Misl origins ca. 1760s; modernized 1805–1809 CE by Maharaja Ranjit Singh)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "European Military Influence on Rampart Design",
+          "classification": "DOCUMENTED",
+          "citationNotes": "PHTPB Architectural Survey (2016); Jean-Marie Lafont, Fauj-i-Khas (2002)."
+        },
+        {
+          "title": "Royal Toshakhana and British Annexation",
+          "classification": "DOCUMENTED",
+          "citationNotes": "National Archives of India Foreign Department Proceedings (1849); Login, Lady, Sir John Login and Duleep Singh (1890)."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Ranjit Singh: Maharaja of the Punjab",
+        "publisher": "George Allen & Unwin, London",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "Khushwant Singh historical biography detailing the military fortification of Gobindgarh and storage of the royal treasury. — Digital source unavailable — bibliographic citation retained."
+      },
+      {
+        "title": "Gobindgarh Fort Conservation and Adaptive Reuse Plan",
+        "publisher": "Punjab Heritage and Tourism Promotion Board (PHTPB)",
+        "url": "https://punjabtourism.punjab.gov.in",
+        "sourceType": "GOVERNMENT",
+        "isDigital": true,
+        "notes": "Official structural conservation report on the Toshakhana, colonial barracks, and perimeter moats."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "₹50 for Indian citizens; ₹150 for foreign nationals (verified PHTPB ticketed heritage monument; additional charges for 7D show)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "timings": "10:00 to 22:00 daily; evening 7D projection mapping and light show",
+      "access": "Located along Old Cantt Road, 1.5 km west of Amritsar Junction Railway Station; accessible by taxi, auto-rickshaw, or hop-on hop-off tourist bus.",
+      "parking": "Designated paid parking ground directly outside the main fort gates on Old Cantt Road (₹30–₹50)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": false,
+    "internalLinks": [
+      "qila-mubarak-bathinda (Malwa / Majha defense axis)",
+      "faridkot-raj-mahal-clock-tower"
+    ]
+  },
+  {
+    "index": 51,
+    "name": "Summer Palace of Maharaja Ranjit Singh (Ram Bagh)",
+    "slug": "summer-palace-ranjit-singh-amritsar",
+    "state": "Punjab",
+    "district": "Amritsar",
+    "locality": "Ram Bagh, Amritsar",
+    "latitude": 31.6369,
+    "longitude": 74.8817,
+    "coordinateSource": "Punjab State Archaeology Department / Survey of India",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Sikh Empire (1819–1831 CE, built by Maharaja Ranjit Singh)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Historical Construction Accounts",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Umdat-ut-Tawarikh Daftar III; Punjab State Archives."
+        },
+        {
+          "title": "Subterranean Sard Khana Ventilation Channels",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Punjab State Archaeology Conservation Report (2014); Osborne, W.G. (1840)."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Monuments of Punjab: Protected Heritage Sites",
+        "publisher": "Department of Cultural Affairs, Archaeology & Museums, Punjab",
+        "url": "https://punjabtourism.punjab.gov.in",
+        "sourceType": "GOVERNMENT",
+        "isDigital": true,
+        "notes": "Official state gazette notification of monument protection for the Ram Bagh Palace."
+      },
+      {
+        "title": "The Court and Camp of Runjeet Sing",
+        "publisher": "Henry Colburn, London",
+        "sourceType": "ARCHIVAL",
+        "isDigital": false,
+        "notes": "W.G. Osborne contemporary diary describing meetings with the Maharaja inside the Ram Bagh summer pavilions. — Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "₹10 for Indian citizens; ₹50 for foreign nationals (verified Punjab State Archaeology ticket)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "timings": "10:00 to 17:00 (Closed on Mondays)",
+      "access": "Located along Mall Road in civil lines; easily reached by auto-rickshaw or taxi from Amritsar Railway Station (1.5 km away).",
+      "parking": "Dedicated parking space inside Ram Bagh garden near the Maharaja Ranjit Singh Panorama building (₹20–₹40)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": false,
+    "internalLinks": []
+  },
+  {
+    "index": 52,
+    "name": "Sanghol Archaeological Site (Uchha Pind)",
+    "slug": "sanghol-archaeological-site-fatehgarh-sahib",
+    "state": "Punjab",
+    "district": "Fatehgarh Sahib",
+    "locality": "Sanghol",
+    "latitude": 30.7878,
+    "longitude": 76.3886,
+    "coordinateSource": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Ancient Antiquity (Late Harappan to 1st–2nd c. CE Kushan Buddhist Stupa complex)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Discovery of the 117 Kushan Railing Pillars",
+          "classification": "DOCUMENTED",
+          "citationNotes": "ASI Excavation Report (1985); Gupta, S.P. (1985)."
+        },
+        {
+          "title": "Wheel-Shaped Stupa Architecture and Relic Casket",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Margabandhu, C. (1995) ASI Memoir No. 92."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Excavations at Sanghol (1985–1990): The Buddhist Stupa and Monastery",
+        "publisher": "Archaeological Survey of India (ASI)",
+        "url": "https://asi.nic.in",
+        "sourceType": "ARCHAEOLOGICAL",
+        "isDigital": true,
+        "notes": "Official excavation memoir documenting the discovery of the 117 Mathura-style railing pillars and stupa brickwork by C. Margabandhu."
+      },
+      {
+        "title": "Masterpieces of Sanghol Art: The Kushana Sculptures",
+        "publisher": "National Museum, New Delhi",
+        "sourceType": "MUSEUM",
+        "isDigital": false,
+        "notes": "S.P. Gupta catalog analyzing the iconography, epigraphy, and cultural significance of the excavated red sandstone railings. — Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "Free entry to the excavated stupa mound; nominal ticket for the Sanghol Archaeological Museum (₹20 for Indian citizens)",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "timings": "10:00 to 17:00 (Closed on Mondays)",
+      "access": "Located along the Chandigarh-Ludhiana Highway (NH 5), 40 km west of Chandigarh; frequent state transport buses stop directly in front of the museum gate.",
+      "parking": "Designated parking space outside the Sanghol Archaeological Museum campus on the main highway (₹20–₹40)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": false,
+    "internalLinks": [
+      "aam-khas-bagh-sirhind (Fatehgarh Sahib district heritage)"
+    ]
+  },
+  {
+    "index": 53,
+    "name": "Phillaur Fort (Maharaja Ranjit Singh Fort)",
+    "slug": "phillaur-fort-ludhiana",
+    "state": "Punjab",
+    "district": "Jalandhar",
+    "locality": "Phillaur",
+    "latitude": 31.0253,
+    "longitude": 75.7878,
+    "coordinateSource": "Punjab Police Academy Heritage Cell / Survey of India Toposheet",
+    "coordinateStatus": "VERIFIED_GEOCODED (>= 3 decimal places)",
+    "historicalPeriod": "Mughal & Sikh Empire (Mughal Sarai ca. 1650s; converted to fort 1809–1812 CE by Maharaja Ranjit Singh)",
+    "evidenceBreakdown": {
+      "documented": 2,
+      "tradition": 0,
+      "disputed": 0,
+      "unknown": 0,
+      "items": [
+        {
+          "title": "Militarization Following the 1809 Treaty of Amritsar",
+          "classification": "DOCUMENTED",
+          "citationNotes": "Cunningham, J.D. (1849); Punjab State Archives Records; Jalandhar District Gazetteer."
+        },
+        {
+          "title": "Mughal Sarai Core Architecture",
+          "classification": "DOCUMENTED",
+          "citationNotes": "ASI Northern Circle Survey; Punjab Heritage Department Records."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "A History of the Sikhs: From the Origin of the Nation to the Battles of the Sutlej",
+        "publisher": "John Murray, London",
+        "sourceType": "ACADEMIC",
+        "isDigital": false,
+        "notes": "Joseph Davey Cunningham account of the Treaty of Amritsar (1809) and the militarization of Phillaur as a frontier post. — Digital source unavailable — bibliographic citation retained."
+      },
+      {
+        "title": "Gazetteer of the Jalandhar District",
+        "publisher": "Civil and Military Gazette Press, Lahore",
+        "sourceType": "GOVERNMENT",
+        "isDigital": false,
+        "notes": "Official historical survey of the Mughal sarai origins and the establishment of the Police Training College. Digital source unavailable — bibliographic citation retained."
+      }
+    ],
+    "visitInfo": {
+      "entryFee": "Entry permitted to public museum sectors and heritage gates with valid government photo identification (Police Academy institutional jurisdiction)",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "timings": "10:00 to 17:00 (Prior institutional permission or security register check at the main gate)",
+      "access": "Located along the Old GT Road in Phillaur town, 12 km north of Ludhiana across the Sutlej bridge; Phillaur Junction railway station is 1.5 km away.",
+      "parking": "Designated parking outside the main historic northern portal of the Punjab Police Academy (₹20–₹40)"
+    },
+    "photographyReadiness": {
+      "heroStatus": "HERO_REQUIRED",
+      "detailStatus": "DETAIL_REQUIRED",
+      "contextStatus": "CONTEXT_OPTIONAL",
+      "currentHeroRole": "hero",
+      "currentHeroStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSources": [
+        "Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0 / CC0)",
+        "Archaeological Survey of India Digital Archive",
+        "State Tourism Department Media Repository"
+      ],
+      "acquisitionPathway": "Open-access verified Creative Commons or direct archival public domain licensing",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "publicationReadiness": "READY_FOR_EDITORIAL_REVIEW",
+    "isPriorityGroup": false,
+    "internalLinks": [
+      "mughal-sarai-doraha-ludhiana (Grand Trunk Road corridor, Ludhiana)"
+    ]
+  }
+]

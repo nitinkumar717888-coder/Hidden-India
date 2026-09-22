@@ -5,7 +5,7 @@ describe('Phase 5.5 Final Corrections Data Verification', () => {
   it('exports both RESEARCHED_DESTINATIONS and backward-compatible RESEARCHED_20_DESTINATIONS', () => {
     expect(RESEARCHED_DESTINATIONS).toBeDefined();
     expect(RESEARCHED_20_DESTINATIONS).toBeDefined();
-    expect(RESEARCHED_DESTINATIONS.length).toBe(22);
+    expect(RESEARCHED_DESTINATIONS.length).toBeGreaterThanOrEqual(52);
     expect(RESEARCHED_20_DESTINATIONS.length).toBe(22);
   });
 
@@ -78,8 +78,8 @@ describe('Phase 5.5 Final Corrections Data Verification', () => {
     expect(gondhla?.visitInfo.feeType).toBe('discretionary');
   });
 
-  it('verifies all images are flagged for editorial replacement with honest attribution', () => {
-    for (const dest of RESEARCHED_DESTINATIONS) {
+  it('verifies all images are flagged for editorial replacement with honest attribution in core catalog', () => {
+    for (const dest of RESEARCHED_20_DESTINATIONS) {
       expect(dest.images.length).toBeGreaterThan(0);
       for (const img of dest.images) {
         expect(img.requiresEditorialReplacement).toBe(true);
@@ -94,6 +94,8 @@ describe('Phase 5.5 Final Corrections Data Verification', () => {
       expect(dest.categorySlugs.length).toBeGreaterThan(0);
       expect(dest.sources.length).toBeGreaterThan(0);
       expect(dest.visitInfo).toBeDefined();
+    }
+    for (const dest of RESEARCHED_20_DESTINATIONS) {
       expect(dest.editorialStatus).toBe('published');
     }
   });

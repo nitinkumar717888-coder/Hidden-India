@@ -9,12 +9,14 @@ interface MapPageProps {
 
 export const dynamic = 'force-dynamic';
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.pages.dev';
+
 export const metadata: Metadata = {
   title: 'Interactive Discovery Map — Hidden India',
   description:
     'Explore verified hidden forts, ancient ruins, rock-cut shrines, and unusual geological landmarks across India.',
   alternates: {
-    canonical: 'https://hiddenindia.org/map',
+    canonical: `${siteUrl}/map`,
   },
 };
 

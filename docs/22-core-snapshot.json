@@ -1,0 +1,156 @@
+[
+  {
+    "slug": "qila-mubarak-bathinda",
+    "name": "Qila Mubarak (Bathinda Fort)",
+    "lat": 30.211,
+    "lon": 74.9455,
+    "sources": 2
+  },
+  {
+    "slug": "buria-rang-mahal-yamunanagar",
+    "name": "Buria Rang Mahal & Birbal Gateway",
+    "lat": 30.1583,
+    "lon": 77.3486,
+    "sources": 2
+  },
+  {
+    "slug": "tosham-rock-inscription-bhiwani",
+    "name": "Tosham Rock Inscription & Baradari",
+    "lat": 28.8778,
+    "lon": 75.9142,
+    "sources": 2
+  },
+  {
+    "slug": "sheikh-chehli-tomb-kurukshetra",
+    "name": "Sheikh Chehli’s Tomb & Harsh Ka Tila",
+    "lat": 29.9806,
+    "lon": 76.8258,
+    "sources": 2
+  },
+  {
+    "slug": "jal-mahal-narnaul",
+    "name": "Jal Mahal, Narnaul",
+    "lat": 28.0467,
+    "lon": 76.1089,
+    "sources": 2
+  },
+  {
+    "slug": "chor-gumbad-narnaul",
+    "name": "Chor Gumbad, Narnaul",
+    "lat": 28.0645,
+    "lon": 76.1152,
+    "sources": 2
+  },
+  {
+    "slug": "kotla-fort-mosque-nuh-mewat",
+    "name": "Kotla Fort & Mosque (Khanzada Citadel)",
+    "lat": 28.0083,
+    "lon": 77.0583,
+    "sources": 2
+  },
+  {
+    "slug": "masrur-rock-cut-temples-kangra",
+    "name": "Masrur Rock-Cut Temples (Himalayan Monoliths)",
+    "lat": 32.0542,
+    "lon": 76.1486,
+    "sources": 2
+  },
+  {
+    "slug": "tabo-monastic-meditation-caves-spiti",
+    "name": "Tabo Monastic Meditation Caves",
+    "lat": 32.0928,
+    "lon": 78.3814,
+    "sources": 2
+  },
+  {
+    "slug": "killar-kishtwar-cliff-road-pangi",
+    "name": "Killar-Kishtwar Cliff Road & Chenab Gorge",
+    "lat": 33.0889,
+    "lon": 76.4306,
+    "sources": 2
+  },
+  {
+    "slug": "gondhla-tower-fort-lahaul",
+    "name": "Gondhla Tower Fort (Eight-Storey Timber Castle)",
+    "lat": 32.4861,
+    "lon": 77.0111,
+    "sources": 2
+  },
+  {
+    "slug": "pragpur-heritage-village-kangra",
+    "name": "Pragpur Heritage Village & Lal Haveli",
+    "lat": 31.8194,
+    "lon": 76.2167,
+    "sources": 2
+  },
+  {
+    "slug": "aam-khas-bagh-sirhind",
+    "name": "Aam Khas Bagh (Sirhind)",
+    "lat": 30.6389,
+    "lon": 76.3889,
+    "sources": 2
+  },
+  {
+    "slug": "mughal-sarai-doraha-ludhiana",
+    "name": "Mughal Sarai Doraha (Sarai Lashkari Khan)",
+    "lat": 30.8056,
+    "lon": 76.0278,
+    "sources": 1
+  },
+  {
+    "slug": "faridkot-raj-mahal-clock-tower",
+    "name": "Faridkot Raj Mahal & Victoria Clock Tower",
+    "lat": 30.6778,
+    "lon": 74.7556,
+    "sources": 1
+  },
+  {
+    "slug": "burail-fort-bastion-chandigarh",
+    "name": "Burail Fort Bastion (Sector 45)",
+    "lat": 30.7083,
+    "lon": 76.7583,
+    "sources": 2
+  },
+  {
+    "slug": "bhima-devi-temple-pinjore",
+    "name": "Bhima Devi Temple Complex (Pinjore)",
+    "lat": 30.7972,
+    "lon": 76.9167,
+    "sources": 1
+  },
+  {
+    "slug": "kalesar-iron-suspension-bridge",
+    "name": "Kalesar Colonial Red Iron Bridge",
+    "lat": 30.3472,
+    "lon": 77.5806,
+    "sources": 2
+  },
+  {
+    "slug": "kalesar-forest-dak-bungalow",
+    "name": "Kalesar Forest Dak Bungalow",
+    "lat": 30.3425,
+    "lon": 77.575,
+    "sources": 2
+  },
+  {
+    "slug": "bhatner-fort-hanumangarh",
+    "name": "Bhatner Fort (Hanumangarh)",
+    "lat": 29.5806,
+    "lon": 74.325,
+    "sources": 2
+  },
+  {
+    "slug": "bassi-baoli-pinjore",
+    "name": "Bassi Baoli (Pinjore Stepwell)",
+    "lat": 30.825,
+    "lon": 76.9389,
+    "sources": 1
+  },
+  {
+    "slug": "dagshai-heritage-jail-catacombs",
+    "name": "Dagshai Heritage Jail & Catacombs",
+    "lat": 30.8814,
+    "lon": 77.0512,
+    "sources": 2
+  }
+]

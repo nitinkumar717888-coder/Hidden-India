@@ -48,7 +48,7 @@ export const QuickFacts: React.FC<QuickFactsProps> = ({ destination, visitInfo }
   // Entry Fee (from visit info)
   if (visitInfo?.entryFee) {
     facts.push({
-      label: 'Entry Fee',
+      label: visitInfo.isFeeVerified ? 'Entry Fee' : 'Indicative Entry Fee',
       value: visitInfo.entryFee,
       verified: visitInfo.isFeeVerified,
     });
@@ -64,9 +64,16 @@ export const QuickFacts: React.FC<QuickFactsProps> = ({ destination, visitInfo }
           <div key={index} className="quick-fact-item">
             <span className="fact-label">{fact.label}</span>
             <span className="fact-value">{fact.value}</span>
-            {fact.verified && (
-              <span className="fact-verified-dot" title="Verified against institutional records">
-                &bull; Verified
+            {fact.verified !== undefined && (
+              <span
+                className="fact-verified-dot"
+                title={
+                  fact.verified
+                    ? 'Verified against institutional records'
+                    : 'Indicative baseline; subject to local change'
+                }
+              >
+                &bull; {fact.verified ? 'Verified' : 'Indicative'}
               </span>
             )}
           </div>

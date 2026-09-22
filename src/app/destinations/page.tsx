@@ -7,12 +7,14 @@ import { Section } from '@/components/common/Section';
 import { FactBadge } from '@/components/common/FactBadge';
 import { EmptyState } from '@/components/common/EmptyState';
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.pages.dev';
+
 export const metadata: Metadata = {
   title: 'All Discoveries — Hidden India',
   description:
     'Searchable directory of verified historical forts, ancient ruins, and unusual geological landmarks across India.',
   alternates: {
-    canonical: 'https://hiddenindia.org/destinations',
+    canonical: `${siteUrl}/destinations`,
   },
 };
 

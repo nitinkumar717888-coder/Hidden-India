@@ -31,7 +31,7 @@ export async function generateMetadata({
   }
 
   const { collection } = data;
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.in';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.pages.dev';
   const canonicalUrl = `${baseUrl}/collections/${collection.slug}`;
 
   const isPublished = collection.editorialStatus === EditorialStatus.PUBLISHED;
@@ -67,7 +67,7 @@ export default async function CollectionDetailPage({
   }
 
   const { collection, waypoints } = data;
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.in';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.pages.dev';
 
   // JSON-LD Structured Data
   const breadcrumbJsonLd = {

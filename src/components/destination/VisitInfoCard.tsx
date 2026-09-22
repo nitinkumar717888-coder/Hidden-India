@@ -39,10 +39,14 @@ export const VisitInfoCard: React.FC<VisitInfoCardProps> = ({ visitInfo }) => {
         {/* Entry Fee */}
         {visitInfo.entryFee && (
           <div className="visit-param-block">
-            <span className="param-label">Entry Fee</span>
+            <span className="param-label">
+              {visitInfo.isFeeVerified ? 'Entry Fee' : 'Indicative Entry Fee'}
+            </span>
             <span className="param-value">{visitInfo.entryFee}</span>
             <span className="param-note">
-              {visitInfo.isFeeVerified ? 'Verified with official tariff' : 'Unverified / confirm on site'}
+              {visitInfo.isFeeVerified
+                ? 'Verified baseline tariff. Fees may change; verify locally before travelling.'
+                : 'Indicative / discretionary baseline. Fees may change; verify locally before travelling.'}
             </span>
           </div>
         )}
@@ -50,8 +54,9 @@ export const VisitInfoCard: React.FC<VisitInfoCardProps> = ({ visitInfo }) => {
         {/* Opening Hours */}
         {visitInfo.openingInformation && (
           <div className="visit-param-block">
-            <span className="param-label">Opening Timings</span>
+            <span className="param-label">Typical Visiting Hours</span>
             <span className="param-value">{visitInfo.openingInformation}</span>
+            <span className="param-note">Hours may vary; verify locally before travelling.</span>
           </div>
         )}
 

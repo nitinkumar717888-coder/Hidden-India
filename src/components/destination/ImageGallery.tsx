@@ -30,12 +30,47 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({ images }) => {
                 className="gallery-img"
               />
             </div>
-            {(img.caption || img.credit || img.license) && (
+            {(img.caption || img.credit || img.license || (img as any).photographer || (img as any).source) && (
               <figcaption className="gallery-caption text-caption">
                 {img.caption && <p className="caption-text">{img.caption}</p>}
                 <div className="caption-credit">
-                  {img.credit && <span>Credit: {img.credit}</span>}
-                  {img.license && <span> &bull; License: {img.license}</span>}
+                  {((img as any).photographer || img.credit) && (
+                    <span>Photo: {(img as any).photographer || img.credit}</span>
+                  )}
+                  {(img as any).source && (
+                    <span>
+                      {' '}• Source:{' '}
+                      {(img as any).sourceUrl ? (
+                        <a
+                          href={(img as any).sourceUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          style={{ textDecoration: 'underline', color: 'inherit' }}
+                        >
+                          {(img as any).source}
+                        </a>
+                      ) : (
+                        (img as any).source
+                      )}
+                    </span>
+                  )}
+                  {img.license && (
+                    <span>
+                      {' '}• License:{' '}
+                      {(img as any).licenseUrl ? (
+                        <a
+                          href={(img as any).licenseUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          style={{ textDecoration: 'underline', color: 'inherit' }}
+                        >
+                          {img.license}
+                        </a>
+                      ) : (
+                        img.license
+                      )}
+                    </span>
+                  )}
                 </div>
               </figcaption>
             )}

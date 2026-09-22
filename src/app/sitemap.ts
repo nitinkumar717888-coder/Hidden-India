@@ -8,7 +8,7 @@ import { RESEARCHED_COLLECTIONS } from '../lib/db/collections-data';
 export const dynamic = 'force-dynamic';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.in';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.pages.dev';
 
   // 1. Static Public Roots
   const staticRoutes: MetadataRoute.Sitemap = [

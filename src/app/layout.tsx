@@ -16,7 +16,7 @@ const playfair = Playfair_Display({
   display: 'swap',
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.in';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.pages.dev';
 
 export const metadata: Metadata = {
   title: 'Hidden India — Discover the India You Weren’t Told About',

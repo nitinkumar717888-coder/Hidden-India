@@ -16,23 +16,25 @@ describe('Sitemap Generator Integration Tests', () => {
 
     const urls = entries.map((e) => e.url);
 
+    const expectedBaseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.pages.dev';
+
     // Root paths
-    expect(urls).toContain('https://hiddenindia.in');
-    expect(urls).toContain('https://hiddenindia.in/collections');
-    expect(urls).toContain('https://hiddenindia.in/destinations');
-    expect(urls).toContain('https://hiddenindia.in/map');
-    expect(urls).toContain('https://hiddenindia.in/search');
+    expect(urls).toContain(expectedBaseUrl);
+    expect(urls).toContain(`${expectedBaseUrl}/collections`);
+    expect(urls).toContain(`${expectedBaseUrl}/destinations`);
+    expect(urls).toContain(`${expectedBaseUrl}/map`);
+    expect(urls).toContain(`${expectedBaseUrl}/search`);
 
     // Published destinations
     const publishedDests = RESEARCHED_DESTINATIONS.filter((d) => d.editorialStatus === 'published');
     publishedDests.forEach((dest) => {
-      expect(urls).toContain(`https://hiddenindia.in/destinations/${dest.slug}`);
+      expect(urls).toContain(`${expectedBaseUrl}/destinations/${dest.slug}`);
     });
 
     // Published collections
     const publishedColls = RESEARCHED_COLLECTIONS.filter((c) => c.editorialStatus === 'published');
     publishedColls.forEach((coll) => {
-      expect(urls).toContain(`https://hiddenindia.in/collections/${coll.slug}`);
+      expect(urls).toContain(`${expectedBaseUrl}/collections/${coll.slug}`);
     });
 
     // Strictly exclude private or admin routes

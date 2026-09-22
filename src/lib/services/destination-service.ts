@@ -97,6 +97,155 @@ export class DestinationService {
   }
 
   /**
+   * Fetches full destination record for admin editorial management.
+   * Supports both database records and seed fallback.
+   */
+  async getByIdForAdmin(idOrSlug: string): Promise<FullDestinationRecord | null> {
+    if (!db) {
+      const match = RESEARCHED_DESTINATIONS.find(
+        (d, index) => d.slug === idOrSlug || `dest-${index + 1}` === idOrSlug
+      );
+      if (!match) return null;
+      return {
+        destination: {
+          id: idOrSlug,
+          name: match.name,
+          slug: match.slug,
+          shortDescription: match.shortDescription,
+          longDescription: match.longDescription,
+          state: match.state,
+          district: match.district,
+          locality: match.locality,
+          latitude: match.latitude,
+          longitude: match.longitude,
+          coordinateSource: match.coordinateSource,
+          coordinateVerifiedAt: new Date(),
+          historicalPeriod: match.historicalPeriod,
+          difficulty: match.difficulty as any,
+          estimatedVisitDuration: match.estimatedVisitDuration,
+          evidenceClassification: match.evidenceClassification as any,
+          editorialStatus: match.editorialStatus as any,
+          isFeatured: match.isFeatured,
+          publishedAt: null,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        categories: match.categorySlugs.map((slug) => ({
+          id: slug,
+          name: slug.toUpperCase(),
+          slug,
+          description: null,
+          createdAt: new Date(),
+        })),
+        visitInfo: {
+          id: `visit-${match.slug}`,
+          destinationId: idOrSlug,
+          entryFee: match.visitInfo.entryFee,
+          currency: match.visitInfo.currency,
+          feeType: match.visitInfo.feeType,
+          isFeeVerified: match.visitInfo.isFeeVerified,
+          openingInformation: match.visitInfo.openingInformation,
+          parkingInformation: match.visitInfo.parkingInformation,
+          accessInformation: match.visitInfo.accessInformation,
+          contactInformation: match.visitInfo.contactInformation || null,
+          bestTimeInformation: match.visitInfo.bestTimeInformation,
+          verifiedAt: new Date(),
+          updatedAt: new Date(),
+          sourceId: null,
+        },
+        sources: match.sources.map((s, sIdx) => ({
+          id: `src-${match.slug}-${sIdx}`,
+          destinationId: idOrSlug,
+          title: s.title,
+          publisher: s.publisher,
+          url: s.url || null,
+          sourceType: s.sourceType as any,
+          publicationDate: s.publicationDate || null,
+          notes: s.notes || null,
+          isVerified: true,
+          verifiedAt: new Date(),
+          createdAt: new Date(),
+        })),
+        evidenceItems: match.evidenceItems.map((e, eIdx) => ({
+          id: `evi-${match.slug}-${eIdx}`,
+          destinationId: idOrSlug,
+          sectionTitle: e.sectionTitle,
+          content: e.content,
+          classification: e.classification as any,
+          citationNotes: e.citationNotes,
+          displayOrder: e.displayOrder,
+          createdAt: new Date(),
+        })),
+        images: match.images.map((img, iIdx) => ({
+          id: `img-${match.slug}-${iIdx}`,
+          destinationId: idOrSlug,
+          imageUrl: img.imageUrl,
+          altText: img.altText,
+          caption: img.caption || null,
+          credit: img.credit || null,
+          license: img.license || null,
+          licenseUrl: img.licenseUrl || null,
+          source: img.source || null,
+          sourceUrl: img.sourceUrl || null,
+          originalFileUrl: img.originalFileUrl || null,
+          photographer: img.photographer || null,
+          captureDate: img.captureDate || null,
+          attribution: img.attribution || null,
+          accessedAt: img.accessedAt ? new Date(img.accessedAt) : null,
+          modificationNotes: img.modificationNotes || null,
+          role: img.role || 'hero',
+          editorialStatus: img.editorialStatus || 'PENDING_PHOTOGRAPHY',
+          requiresEditorialReplacement: img.requiresEditorialReplacement !== false,
+          isPrimary: img.isPrimary,
+          sortOrder: iIdx,
+          createdAt: new Date(),
+        })),
+      };
+    }
+
+    const isUuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(idOrSlug);
+    const destination = await db.query.destinations?.findFirst({
+      where: isUuid ? eq(destinations.id, idOrSlug) : eq(destinations.slug, idOrSlug),
+    });
+
+    if (!destination) return null;
+
+    const destCats = await db
+      .select({ category: categories })
+      .from(destinationCategories)
+      .innerJoin(categories, eq(destinationCategories.categoryId, categories.id))
+      .where(eq(destinationCategories.destinationId, destination.id));
+
+    const visitInfo = await db.query.destinationVisitInfo?.findFirst({
+      where: eq(destinationVisitInfo.destinationId, destination.id),
+    });
+
+    const sources = await db.query.destinationSources?.findMany({
+      where: eq(destinationSources.destinationId, destination.id),
+      orderBy: [desc(destinationSources.createdAt)],
+    });
+
+    const evidenceItems = await db.query.destinationEvidenceItems?.findMany({
+      where: eq(destinationEvidenceItems.destinationId, destination.id),
+      orderBy: [destinationEvidenceItems.displayOrder],
+    });
+
+    const images = await db.query.destinationImages?.findMany({
+      where: eq(destinationImages.destinationId, destination.id),
+      orderBy: [destinationImages.sortOrder],
+    });
+
+    return {
+      destination,
+      categories: destCats.map((dc) => dc.category),
+      visitInfo: visitInfo || null,
+      sources: sources || [],
+      evidenceItems: evidenceItems || [],
+      images: images || [],
+    };
+  }
+
+  /**
    * Fetches published destinations for discovery catalog.
    */
   async getPublished(limit: number = 20, offset: number = 0) {

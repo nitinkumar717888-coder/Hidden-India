@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import { trackEvent } from '@/lib/analytics/telemetry';
 
 interface SaveDestinationButtonProps {
   destinationId: string;
@@ -9,6 +10,7 @@ interface SaveDestinationButtonProps {
 
 export const SaveDestinationButton: React.FC<SaveDestinationButtonProps> = ({
   destinationId,
+  destinationName,
 }) => {
   const [isSaved, setIsSaved] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -73,6 +75,7 @@ export const SaveDestinationButton: React.FC<SaveDestinationButtonProps> = ({
           localSaved.push(destinationId);
           localStorage.setItem('hidden_india_saved_destinations', JSON.stringify(localSaved));
           setIsSaved(true);
+          trackEvent({ type: 'destination_saved', destinationSlug: destinationName });
           setNotice('Saved locally on this device. Sign in to sync across devices.');
         }
         setIsLoading(false);
@@ -82,6 +85,9 @@ export const SaveDestinationButton: React.FC<SaveDestinationButtonProps> = ({
       const data = await res.json();
       if (data.success) {
         setIsSaved(data.isSaved);
+        if (data.isSaved) {
+          trackEvent({ type: 'destination_saved', destinationSlug: destinationName });
+        }
         setNotice(data.isSaved ? 'Saved to My Hidden India!' : 'Removed from saved discoveries.');
       }
     } catch {

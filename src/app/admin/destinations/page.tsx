@@ -156,6 +156,15 @@ export default async function AdminDestinationsListPage({
                     </td>
                     <td style={{ textAlign: 'right' }}>
                       <div className="admin-row-actions">
+                        {/* Photos / Intake link */}
+                        <Link
+                          href={`/admin/destinations/${dest.id}`}
+                          className="btn btn-secondary btn-sm"
+                          title="Photography Intake & Licensing"
+                        >
+                          📷 Photos
+                        </Link>
+
                         {/* Preview link */}
                         <a
                           href={`/destinations/${dest.slug}?preview=true`}

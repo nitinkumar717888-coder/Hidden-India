@@ -23,6 +23,7 @@ export async function generateMetadata({ params }: StatePageProps): Promise<Meta
     };
   }
 
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.pages.dev';
   const title = `Hidden & Forgotten Places in ${stateMeta.name} — Hidden India`;
   const description = stateMeta.shortDesc;
 
@@ -30,12 +31,12 @@ export async function generateMetadata({ params }: StatePageProps): Promise<Meta
     title,
     description,
     alternates: {
-      canonical: `https://hiddenindia.org/states/${stateMeta.slug}`,
+      canonical: `${siteUrl}/states/${stateMeta.slug}`,
     },
     openGraph: {
       title,
       description,
-      url: `https://hiddenindia.org/states/${stateMeta.slug}`,
+      url: `${siteUrl}/states/${stateMeta.slug}`,
       siteName: 'Hidden India',
       locale: 'en_IN',
       type: 'website',
@@ -66,6 +67,7 @@ export default async function StatePortalPage({ params, searchParams }: StatePag
 
   const { items, totalCount } = searchResult;
 
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.pages.dev';
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -74,19 +76,19 @@ export default async function StatePortalPage({ params, searchParams }: StatePag
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://hiddenindia.org',
+        item: siteUrl,
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'States & Regions',
-        item: 'https://hiddenindia.org/explore',
+        item: `${siteUrl}/explore`,
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: stateMeta.name,
-        item: `https://hiddenindia.org/states/${stateMeta.slug}`,
+        item: `${siteUrl}/states/${stateMeta.slug}`,
       },
     ],
   };

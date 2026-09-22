@@ -20,6 +20,14 @@ export const DestinationHero: React.FC<DestinationHeroProps> = ({
     .filter(Boolean)
     .join(', ');
 
+  const isPlaceholder = Boolean(
+    (primaryImage as { requiresEditorialReplacement?: boolean } | null)?.requiresEditorialReplacement ||
+      primaryImage?.credit?.includes('Representative Stock') ||
+      primaryImage?.credit?.includes('Pending Verified') ||
+      primaryImage?.caption?.includes('Flagged for editorial') ||
+      primaryImage?.caption?.includes('Representative')
+  );
+
   return (
     <div className="destination-hero">
       <Container size="wide">
@@ -94,10 +102,57 @@ export const DestinationHero: React.FC<DestinationHeroProps> = ({
                   priority
                   className="primary-image"
                 />
-                {(primaryImage.credit || primaryImage.license) && (
+                {isPlaceholder && (
+                  <div className="hero-image-placeholder-tag" role="status">
+                    <span>Editorial Placeholder</span>
+                  </div>
+                )}
+                {(primaryImage.caption || primaryImage.credit || primaryImage.license || (primaryImage as any).photographer || (primaryImage as any).source) && (
                   <div className="image-attribution-overlay">
-                    {primaryImage.credit && <span>Photo: {primaryImage.credit}</span>}
-                    {primaryImage.license && <span> &bull; License: {primaryImage.license}</span>}
+                    {primaryImage.caption && (
+                      <p className="hero-image-caption">{primaryImage.caption}</p>
+                    )}
+                    <div className="hero-image-credit-line">
+                      {((primaryImage as any).photographer || primaryImage.credit) && (
+                        <span>Photo: {(primaryImage as any).photographer || primaryImage.credit}</span>
+                      )}
+                      {(primaryImage as any).source && (
+                        <span>
+                          {' '}&bull; Source:{' '}
+                          {(primaryImage as any).sourceUrl ? (
+                            <a
+                              href={(primaryImage as any).sourceUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="attribution-link"
+                              style={{ textDecoration: 'underline', color: 'inherit' }}
+                            >
+                              {(primaryImage as any).source}
+                            </a>
+                          ) : (
+                            (primaryImage as any).source
+                          )}
+                        </span>
+                      )}
+                      {primaryImage.license && (
+                        <span>
+                          {' '}&bull; License:{' '}
+                          {(primaryImage as any).licenseUrl ? (
+                            <a
+                              href={(primaryImage as any).licenseUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="attribution-link"
+                              style={{ textDecoration: 'underline', color: 'inherit' }}
+                            >
+                              {primaryImage.license}
+                            </a>
+                          ) : (
+                            primaryImage.license
+                          )}
+                        </span>
+                      )}
+                    </div>
                   </div>
                 )}
               </div>

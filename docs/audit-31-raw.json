@@ -1,0 +1,1893 @@
+[
+  {
+    "index": 23,
+    "slug": "qutub-minar-delhi",
+    "name": "Qutub Minar",
+    "state": "Delhi",
+    "district": "South Delhi",
+    "locality": "Mehrauli",
+    "coords": {
+      "lat": 28.5245,
+      "lon": 77.1855,
+      "source": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ARCHAEOLOGICAL",
+        "GOVERNMENT"
+      ],
+      "urls": [
+        "https://asi.nic.in",
+        null
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": false
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "₹50 for Indian citizens; ₹600 for foreign nationals (verified ASI ticketed monument)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 24,
+    "slug": "red-fort-delhi",
+    "name": "Red Fort (Lal Qila)",
+    "state": "Delhi",
+    "district": "Central Delhi",
+    "locality": "Chandni Chowk, Old Delhi",
+    "coords": {
+      "lat": 28.6562,
+      "lon": 77.241,
+      "source": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ARCHAEOLOGICAL",
+        "ACADEMIC"
+      ],
+      "urls": [
+        "https://asi.nic.in",
+        null
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "₹50 for Indian citizens; ₹600 for foreign nationals (verified ASI ticketed monument)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 25,
+    "slug": "humayuns-tomb-delhi",
+    "name": "Humayun’s Tomb",
+    "state": "Delhi",
+    "district": "South East Delhi",
+    "locality": "Nizamuddin East",
+    "coords": {
+      "lat": 28.5933,
+      "lon": 77.2507,
+      "source": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ACADEMIC",
+        "OTHER"
+      ],
+      "urls": [
+        null,
+        "https://www.akdn.org"
+      ],
+      "hasGovOrAsiOrUnesco": false,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "₹50 for Indian citizens; ₹600 for foreign nationals (verified ASI ticketed monument)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 26,
+    "slug": "purana-qila-delhi",
+    "name": "Purana Qila (Old Fort)",
+    "state": "Delhi",
+    "district": "New Delhi",
+    "locality": "Mathura Road",
+    "coords": {
+      "lat": 28.6096,
+      "lon": 77.2436,
+      "source": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ARCHAEOLOGICAL",
+        "ARCHIVAL"
+      ],
+      "urls": [
+        "https://asi.nic.in",
+        null
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "₹25 for Indian citizens; ₹300 for foreign nationals (verified ASI ticketed monument)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 27,
+    "slug": "mehrauli-archaeological-park-delhi",
+    "name": "Mehrauli Archaeological Park",
+    "state": "Delhi",
+    "district": "South Delhi",
+    "locality": "Mehrauli",
+    "coords": {
+      "lat": 28.519,
+      "lon": 77.185,
+      "source": "INTACH Delhi Chapter Survey / Delhi Tourism Geographic Database",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "OTHER",
+        "ACADEMIC"
+      ],
+      "urls": [
+        "https://intach.org",
+        null
+      ],
+      "hasGovOrAsiOrUnesco": false,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "Free public entry to main archaeological park trails; specific ASI monument zones adhere to general guidelines",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 28,
+    "slug": "agrasen-ki-baoli-new-delhi",
+    "name": "Agrasen Ki Baoli",
+    "state": "Delhi",
+    "district": "New Delhi",
+    "locality": "Hailey Lane, near Connaught Place",
+    "coords": {
+      "lat": 28.6258,
+      "lon": 77.225,
+      "source": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ARCHAEOLOGICAL",
+        "ACADEMIC"
+      ],
+      "urls": [
+        "https://asi.nic.in",
+        null
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DISPUTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": true
+    },
+    "visitInfo": {
+      "fee": "Free entry (Protected monument maintained by Archaeological Survey of India)",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 29,
+    "slug": "safdarjungs-tomb-delhi",
+    "name": "Safdarjung’s Tomb",
+    "state": "Delhi",
+    "district": "New Delhi",
+    "locality": "Lodhi Road",
+    "coords": {
+      "lat": 28.5893,
+      "lon": 77.2106,
+      "source": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ARCHAEOLOGICAL",
+        "ACADEMIC"
+      ],
+      "urls": [
+        "https://asi.nic.in",
+        null
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "₹25 for Indian citizens; ₹300 for foreign nationals (verified ASI ticketed monument)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 30,
+    "slug": "lodhi-garden-monuments-delhi",
+    "name": "Lodhi Garden Heritage Monuments",
+    "state": "Delhi",
+    "district": "New Delhi",
+    "locality": "Lodhi Road",
+    "coords": {
+      "lat": 28.5931,
+      "lon": 77.2197,
+      "source": "Archaeological Survey of India Geodetic Survey / NDMC Heritage Survey",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ARCHAEOLOGICAL",
+        "ACADEMIC"
+      ],
+      "urls": [
+        "https://asi.nic.in",
+        null
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "Free public entry to the park and monument interiors (Maintained by NDMC and ASI)",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 31,
+    "slug": "amber-fort-jaipur",
+    "name": "Amber Fort",
+    "state": "Rajasthan",
+    "district": "Jaipur",
+    "locality": "Amer",
+    "coords": {
+      "lat": 26.9855,
+      "lon": 75.8513,
+      "source": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "GOVERNMENT",
+        "ACADEMIC"
+      ],
+      "urls": [
+        "https://artandculture.rajasthan.gov.in",
+        null
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "₹100 for Indian citizens; ₹500 for foreign nationals (verified Rajasthan State Archaeology ticket)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 32,
+    "slug": "hawa-mahal-jaipur",
+    "name": "Hawa Mahal",
+    "state": "Rajasthan",
+    "district": "Jaipur",
+    "locality": "Badi Choupad, Old City",
+    "coords": {
+      "lat": 26.9239,
+      "lon": 75.8267,
+      "source": "Department of Archaeology & Museums Rajasthan / Survey of India",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "GOVERNMENT",
+        "ACADEMIC"
+      ],
+      "urls": [
+        "https://artandculture.rajasthan.gov.in",
+        null
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "₹50 for Indian citizens; ₹200 for foreign nationals (verified Rajasthan State Archaeology ticket)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 33,
+    "slug": "mehrangarh-fort-jodhpur",
+    "name": "Mehrangarh Fort",
+    "state": "Rajasthan",
+    "district": "Jodhpur",
+    "locality": "Jodhpur",
+    "coords": {
+      "lat": 26.2978,
+      "lon": 73.0185,
+      "source": "Mehrangarh Museum Trust / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "MUSEUM",
+        "GOVERNMENT"
+      ],
+      "urls": [
+        "https://mehrangarh.org",
+        null
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": false
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "₹100 for Indian citizens; ₹600 for foreign nationals (verified Mehrangarh Museum Trust tariff)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 34,
+    "slug": "jaisalmer-fort-jaisalmer",
+    "name": "Jaisalmer Fort",
+    "state": "Rajasthan",
+    "district": "Jaisalmer",
+    "locality": "Trikuta Hill, Jaisalmer",
+    "coords": {
+      "lat": 26.9124,
+      "lon": 70.9127,
+      "source": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ARCHAEOLOGICAL",
+        "GOVERNMENT"
+      ],
+      "urls": [
+        "https://asi.nic.in",
+        null
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": false
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "Free entry to fort residential streets and gates; specific entry fees apply for the Fort Palace Museum (₹100 Indian / ₹500 Foreign) and Jain Temples",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 35,
+    "slug": "chittorgarh-fort-chittorgarh",
+    "name": "Chittorgarh Fort",
+    "state": "Rajasthan",
+    "district": "Chittorgarh",
+    "locality": "Chittorgarh",
+    "coords": {
+      "lat": 24.8879,
+      "lon": 74.6453,
+      "source": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ARCHAEOLOGICAL",
+        "ACADEMIC"
+      ],
+      "urls": [
+        "https://asi.nic.in",
+        null
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "₹40 for Indian citizens; ₹600 for foreign nationals (verified ASI ticketed monument)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 36,
+    "slug": "kumbhalgarh-fort-rajsamand",
+    "name": "Kumbhalgarh Fort",
+    "state": "Rajasthan",
+    "district": "Rajsamand",
+    "locality": "Kumbhalgarh",
+    "coords": {
+      "lat": 25.1479,
+      "lon": 73.5872,
+      "source": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ARCHAEOLOGICAL",
+        "ACADEMIC"
+      ],
+      "urls": [
+        "https://asi.nic.in",
+        null
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "₹40 for Indian citizens; ₹600 for foreign nationals (verified ASI ticketed monument)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 37,
+    "slug": "chand-baori-abhaneri",
+    "name": "Chand Baori",
+    "state": "Rajasthan",
+    "district": "Dausa",
+    "locality": "Abhaneri",
+    "coords": {
+      "lat": 27.0073,
+      "lon": 76.6064,
+      "source": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ARCHAEOLOGICAL",
+        "ACADEMIC"
+      ],
+      "urls": [
+        "https://asijaipurcircle.nic.in",
+        null
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "₹25 for Indian citizens; ₹300 for foreign nationals (verified ASI ticketed monument)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 38,
+    "slug": "rakhigarhi-archaeological-site-hisar",
+    "name": "Rakhigarhi Archaeological Site",
+    "state": "Haryana",
+    "district": "Hisar",
+    "locality": "Rakhigarhi",
+    "coords": {
+      "lat": 29.2894,
+      "lon": 76.1156,
+      "source": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ARCHAEOLOGICAL",
+        "ACADEMIC"
+      ],
+      "urls": [
+        "https://asi.nic.in",
+        null
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "Free entry to archaeological mounds; small nominal admission for State On-Site Interpretation Centre",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 39,
+    "slug": "firoz-shah-palace-hisar",
+    "name": "Firoz Shah Palace Complex",
+    "state": "Haryana",
+    "district": "Hisar",
+    "locality": "Hisar",
+    "coords": {
+      "lat": 29.1539,
+      "lon": 75.7227,
+      "source": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ARCHAEOLOGICAL",
+        "ARCHIVAL"
+      ],
+      "urls": [
+        "https://asi.nic.in",
+        null
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "Free entry (Protected monument maintained by Archaeological Survey of India)",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 40,
+    "slug": "kabuli-bagh-mosque-panipat",
+    "name": "Kabuli Bagh Mosque",
+    "state": "Haryana",
+    "district": "Panipat",
+    "locality": "Old City, Panipat",
+    "coords": {
+      "lat": 29.3958,
+      "lon": 76.9822,
+      "source": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ARCHAEOLOGICAL",
+        "ARCHIVAL"
+      ],
+      "urls": [
+        "https://asi.nic.in",
+        null
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "Free entry (Protected monument maintained by Archaeological Survey of India)",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 41,
+    "slug": "brahma-sarovar-kurukshetra",
+    "name": "Brahma Sarovar",
+    "state": "Haryana",
+    "district": "Kurukshetra",
+    "locality": "Thanesar",
+    "coords": {
+      "lat": 29.9597,
+      "lon": 76.8322,
+      "source": "Kurukshetra Development Board / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ACADEMIC",
+        "ACADEMIC"
+      ],
+      "urls": [
+        null,
+        null
+      ],
+      "hasGovOrAsiOrUnesco": false,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "LOCAL_TRADITION"
+      ],
+      "hasDocumented": true,
+      "hasTradition": true,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "Free public entry to the sarovar, ghats, and island temples",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 42,
+    "slug": "jyotisar-kurukshetra",
+    "name": "Jyotisar",
+    "state": "Haryana",
+    "district": "Kurukshetra",
+    "locality": "Jyotisar",
+    "coords": {
+      "lat": 29.9672,
+      "lon": 76.7644,
+      "source": "Kurukshetra Development Board / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ACADEMIC",
+        "ARCHAEOLOGICAL"
+      ],
+      "urls": [
+        null,
+        null
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "LOCAL_TRADITION",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": true,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "Free entry to the sacred grounds and banyan tree shrine; ticketed evening sound & light show (₹50)",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 43,
+    "slug": "pinjore-gardens-panchkula",
+    "name": "Pinjore Gardens (Yadavindra Gardens)",
+    "state": "Haryana",
+    "district": "Panchkula",
+    "locality": "Pinjore",
+    "coords": {
+      "lat": 30.7942,
+      "lon": 76.915,
+      "source": "Haryana Tourism / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ACADEMIC",
+        "OFFICIAL_TOURISM"
+      ],
+      "urls": [
+        null,
+        "https://haryanatourism.gov.in"
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "₹25 for Indian citizens; ₹100 for foreign nationals (verified Haryana Tourism ticket)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 44,
+    "slug": "kangra-fort-kangra",
+    "name": "Kangra Fort",
+    "state": "Himachal Pradesh",
+    "district": "Kangra",
+    "locality": "Old Kangra",
+    "coords": {
+      "lat": 32.0886,
+      "lon": 76.2575,
+      "source": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ACADEMIC",
+        "ARCHAEOLOGICAL"
+      ],
+      "urls": [
+        null,
+        "https://asishimlacircle.gov.in"
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "₹25 for Indian citizens; ₹300 for foreign nationals (verified ASI ticketed monument)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 45,
+    "slug": "viceregal-lodge-shimla",
+    "name": "Viceregal Lodge (Rashtrapati Niwas)",
+    "state": "Himachal Pradesh",
+    "district": "Shimla",
+    "locality": "Observatory Hill, Shimla",
+    "coords": {
+      "lat": 31.1042,
+      "lon": 77.1425,
+      "source": "Indian Institute of Advanced Study / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ACADEMIC",
+        "ACADEMIC"
+      ],
+      "urls": [
+        null,
+        "https://www.iias.ac.in"
+      ],
+      "hasGovOrAsiOrUnesco": false,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "₹50 for Indian citizens (garden entry); ₹100–₹200 for guided interior museum tour (verified IIAS tariff)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 46,
+    "slug": "christ-church-shimla",
+    "name": "Christ Church",
+    "state": "Himachal Pradesh",
+    "district": "Shimla",
+    "locality": "The Ridge, Shimla",
+    "coords": {
+      "lat": 31.1048,
+      "lon": 77.1755,
+      "source": "Diocese of Amritsar / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ACADEMIC",
+        "GOVERNMENT"
+      ],
+      "urls": [
+        null,
+        "https://himachal.nic.in"
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "Free entry (Visitors requested to maintain quiet decorum; photography restricted inside during service)",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 47,
+    "slug": "hidimba-devi-temple-manali",
+    "name": "Hidimba Devi Temple",
+    "state": "Himachal Pradesh",
+    "district": "Kullu",
+    "locality": "Dhungri Forest, Manali",
+    "coords": {
+      "lat": 32.2483,
+      "lon": 77.1806,
+      "source": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ARCHAEOLOGICAL",
+        "ACADEMIC"
+      ],
+      "urls": [
+        "https://asi.nic.in",
+        null
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "LOCAL_TRADITION"
+      ],
+      "hasDocumented": true,
+      "hasTradition": true,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "Free entry to the temple and surrounding Dhungri forest sanctuary",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 48,
+    "slug": "golden-temple-amritsar",
+    "name": "Golden Temple (Sri Harmandir Sahib)",
+    "state": "Punjab",
+    "district": "Amritsar",
+    "locality": "Old City, Amritsar",
+    "coords": {
+      "lat": 31.61998,
+      "lon": 74.8765,
+      "source": "SGPC Historical Directorate / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "OTHER",
+        "ACADEMIC"
+      ],
+      "urls": [
+        "https://sgpc.net",
+        null
+      ],
+      "hasGovOrAsiOrUnesco": false,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "Free entry to all visitors of all backgrounds (Community voluntary donation basis; shoes must be deposited, head covered)",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 49,
+    "slug": "jallianwala-bagh-amritsar",
+    "name": "Jallianwala Bagh Memorial",
+    "state": "Punjab",
+    "district": "Amritsar",
+    "locality": "Old City, Amritsar",
+    "coords": {
+      "lat": 31.6206,
+      "lon": 74.8797,
+      "source": "Jallianwala Bagh National Memorial Trust / Survey of India",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "GOVERNMENT",
+        "ARCHIVAL"
+      ],
+      "urls": [
+        null,
+        null
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "Free entry to the public memorial gardens and museum galleries",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 50,
+    "slug": "gobindgarh-fort-amritsar",
+    "name": "Gobindgarh Fort",
+    "state": "Punjab",
+    "district": "Amritsar",
+    "locality": "Old City, Amritsar",
+    "coords": {
+      "lat": 31.6289,
+      "lon": 74.8647,
+      "source": "Punjab Heritage & Tourism Promotion Board / Survey of India",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ACADEMIC",
+        "GOVERNMENT"
+      ],
+      "urls": [
+        null,
+        "https://punjabtourism.punjab.gov.in"
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "₹50 for Indian citizens; ₹150 for foreign nationals (verified PHTPB ticketed heritage monument; additional charges for 7D show)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 51,
+    "slug": "summer-palace-ranjit-singh-amritsar",
+    "name": "Summer Palace of Maharaja Ranjit Singh (Ram Bagh)",
+    "state": "Punjab",
+    "district": "Amritsar",
+    "locality": "Ram Bagh, Amritsar",
+    "coords": {
+      "lat": 31.6369,
+      "lon": 74.8817,
+      "source": "Punjab State Archaeology Department / Survey of India",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "GOVERNMENT",
+        "ARCHIVAL"
+      ],
+      "urls": [
+        "https://punjabtourism.punjab.gov.in",
+        null
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "₹10 for Indian citizens; ₹50 for foreign nationals (verified Punjab State Archaeology ticket)",
+      "feeType": "per_person",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 52,
+    "slug": "sanghol-archaeological-site-fatehgarh-sahib",
+    "name": "Sanghol Archaeological Site (Uchha Pind)",
+    "state": "Punjab",
+    "district": "Fatehgarh Sahib",
+    "locality": "Sanghol",
+    "coords": {
+      "lat": 30.7878,
+      "lon": 76.3886,
+      "source": "Archaeological Survey of India Geodetic Survey / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ARCHAEOLOGICAL",
+        "MUSEUM"
+      ],
+      "urls": [
+        "https://asi.nic.in",
+        null
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": false
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "Free entry to the excavated stupa mound; nominal ticket for the Sanghol Archaeological Museum (₹20 for Indian citizens)",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  },
+  {
+    "index": 53,
+    "slug": "phillaur-fort-ludhiana",
+    "name": "Phillaur Fort (Maharaja Ranjit Singh Fort)",
+    "state": "Punjab",
+    "district": "Jalandhar",
+    "locality": "Phillaur",
+    "coords": {
+      "lat": 31.0253,
+      "lon": 75.7878,
+      "source": "Punjab Police Academy Heritage Cell / Survey of India Toposheet",
+      "verified": true
+    },
+    "sources": {
+      "count": 2,
+      "types": [
+        "ACADEMIC",
+        "GOVERNMENT"
+      ],
+      "urls": [
+        null,
+        null
+      ],
+      "hasGovOrAsiOrUnesco": true,
+      "hasAcademicOrArchival": true
+    },
+    "evidence": {
+      "totalItems": 2,
+      "classifications": [
+        "DOCUMENTED",
+        "DOCUMENTED"
+      ],
+      "hasDocumented": true,
+      "hasTradition": false,
+      "hasDisputed": false
+    },
+    "visitInfo": {
+      "fee": "Entry permitted to public museum sectors and heritage gates with valid government photo identification (Police Academy institutional jurisdiction)",
+      "feeType": "free",
+      "isFeeVerified": true,
+      "hasTimings": true,
+      "hasAccess": true
+    },
+    "photography": {
+      "heroRequired": true,
+      "detailRequired": true,
+      "contextOptional": true,
+      "currentImageRole": "hero",
+      "currentEditorialStatus": "PENDING_PHOTOGRAPHY",
+      "requiresReplacement": true,
+      "preferredSourceTypes": [
+        "Wikimedia Commons (CC BY-SA / CC0)",
+        "Archaeological Survey of India Archive",
+        "Official Tourism Directorate"
+      ],
+      "knownSources": "Wikimedia Commons / ASI Photographic Archive / Public Domain",
+      "licenseStatus": "PENDING_THIRD_PARTY_INTAKE"
+    },
+    "readinessStatus": "READY_FOR_EDITORIAL_REVIEW",
+    "qualifiesForPriority": false
+  }
+]

@@ -23,6 +23,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
     };
   }
 
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.pages.dev';
   const title = `${category.name} in India — Hidden & Forgotten Discoveries`;
   const description =
     category.description ||
@@ -32,12 +33,12 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
     title,
     description,
     alternates: {
-      canonical: `https://hiddenindia.org/categories/${category.slug}`,
+      canonical: `${siteUrl}/categories/${category.slug}`,
     },
     openGraph: {
       title,
       description,
-      url: `https://hiddenindia.org/categories/${category.slug}`,
+      url: `${siteUrl}/categories/${category.slug}`,
       siteName: 'Hidden India',
       locale: 'en_IN',
       type: 'website',
@@ -64,6 +65,7 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
     .filter((c) => c.slug !== category.slug)
     .slice(0, 6);
 
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.pages.dev';
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -72,19 +74,19 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://hiddenindia.org',
+        item: siteUrl,
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Categories',
-        item: 'https://hiddenindia.org/explore',
+        item: `${siteUrl}/explore`,
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: category.name,
-        item: `https://hiddenindia.org/categories/${category.slug}`,
+        item: `${siteUrl}/categories/${category.slug}`,
       },
     ],
   };

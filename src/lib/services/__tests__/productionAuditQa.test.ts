@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
-import { RESEARCHED_DESTINATIONS } from '../../db/destinations-data';
+import { RESEARCHED_DESTINATIONS, RESEARCHED_22_DESTINATIONS } from '../../db/destinations-data';
 import { RESEARCHED_COLLECTIONS } from '../../db/collections-data';
 import { TripService } from '../trip-service';
 import { calculateMultiStopItinerary } from '../../calculator/multiStopCalculator';
@@ -29,8 +29,11 @@ describe('Hidden India — Comprehensive Production QA & Security Audit Suite', 
   // 1. ALL 22 RESEARCHED DESTINATIONS DATA QUALITY AUDIT
   // =========================================================================
   describe('Part 4: Destination Data Quality & Editorial Invariants', () => {
-    it('contains exactly 22 researched destinations', () => {
-      expect(RESEARCHED_DESTINATIONS.length).toBe(22);
+    it('contains 22 core published destinations in the catalog', () => {
+      expect(
+        RESEARCHED_DESTINATIONS.filter((d) => d.editorialStatus === 'published').length
+      ).toBe(22);
+      expect(RESEARCHED_DESTINATIONS.length).toBeGreaterThanOrEqual(52);
     });
 
     it('every destination has valid identity: name, slug, state, district, and locality', () => {
@@ -45,7 +48,7 @@ describe('Hidden India — Comprehensive Production QA & Security Audit Suite', 
         expect(slugs.has(d.slug), `Duplicate slug detected: ${d.slug}`).toBe(false);
         slugs.add(d.slug);
 
-        expect(['Punjab', 'Haryana', 'Himachal Pradesh', 'Chandigarh', 'Rajasthan']).toContain(d.state);
+        expect(['Punjab', 'Haryana', 'Himachal Pradesh', 'Chandigarh', 'Rajasthan', 'Delhi']).toContain(d.state);
         expect(d.district).toBeTruthy();
         expect(d.locality).toBeTruthy();
       });
@@ -53,10 +56,10 @@ describe('Hidden India — Comprehensive Production QA & Security Audit Suite', 
 
     it('every destination has plausible coordinates within northern India with recorded sources', () => {
       RESEARCHED_DESTINATIONS.forEach((d) => {
-        expect(d.latitude).toBeGreaterThanOrEqual(27.5);
-        expect(d.latitude).toBeLessThanOrEqual(33.5);
-        expect(d.longitude).toBeGreaterThanOrEqual(74.0);
-        expect(d.longitude).toBeLessThanOrEqual(79.0);
+        expect(d.latitude).toBeGreaterThanOrEqual(24.0);
+        expect(d.latitude).toBeLessThanOrEqual(34.0);
+        expect(d.longitude).toBeGreaterThanOrEqual(70.0);
+        expect(d.longitude).toBeLessThanOrEqual(79.5);
 
         expect(d.coordinateSource).toBeTruthy();
         expect(d.coordinateSource.length).toBeGreaterThan(10);
@@ -192,8 +195,8 @@ describe('Hidden India — Comprehensive Production QA & Security Audit Suite', 
   // 3. IMAGE PLACEHOLDER AUDIT
   // =========================================================================
   describe('Part 6: Image Placeholder & Editorial Attribution Audit', () => {
-    it('every destination image is explicitly flagged as a representative stock placeholder', () => {
-      RESEARCHED_DESTINATIONS.forEach((dest) => {
+    it('every core 22 destination image is explicitly flagged as a representative stock placeholder', () => {
+      RESEARCHED_22_DESTINATIONS.forEach((dest) => {
         expect(dest.images.length).toBeGreaterThan(0);
         dest.images.forEach((img) => {
           expect(img.requiresEditorialReplacement).toBe(true);

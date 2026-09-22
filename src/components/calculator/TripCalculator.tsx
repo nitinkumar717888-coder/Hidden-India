@@ -12,6 +12,7 @@ import { DestinationVisitInfo } from '@/lib/db/schema';
 import { parseDestinationVisitCosts } from '@/lib/calculator/visitParser';
 import { Coordinates, RouteEstimate } from '@/lib/routing/types';
 import { generateGoogleMapsNavigationUrl } from '@/lib/routing/routing-provider';
+import { trackEvent } from '@/lib/analytics/telemetry';
 
 interface TripCalculatorProps {
   destinationName: string;
@@ -503,6 +504,7 @@ export const TripCalculator: React.FC<TripCalculatorProps> = ({
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-secondary btn-gmaps-navigate"
+                  onClick={() => trackEvent({ type: 'gmaps_outbound_click', destinationSlug: destinationName })}
                 >
                   <span>🗺️ Open in Google Maps</span>
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

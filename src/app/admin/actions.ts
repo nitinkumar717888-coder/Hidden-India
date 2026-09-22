@@ -77,3 +77,74 @@ export async function updateDestinationStatusAction(
   }
   return result;
 }
+
+/**
+ * Server Action: Ingest and verify photography for a destination.
+ */
+export async function addDestinationImageAction(formData: FormData) {
+  await assertAdminUser();
+  const destinationId = formData.get('destinationId') as string;
+  const imageUrl = formData.get('imageUrl') as string;
+  const altText = formData.get('altText') as string;
+  const role = (formData.get('role') as 'hero' | 'detail' | 'context') || 'hero';
+  const photographer = (formData.get('photographer') as string) || null;
+  const captureDate = (formData.get('captureDate') as string) || null;
+  const source = (formData.get('source') as string) || 'Wikimedia Commons';
+  const sourceUrl = formData.get('sourceUrl') as string;
+  const originalFileUrl = (formData.get('originalFileUrl') as string) || imageUrl;
+  const license = formData.get('license') as string;
+  const licenseUrl = (formData.get('licenseUrl') as string) || null;
+  const attribution = (formData.get('attribution') as string) || null;
+  const caption = (formData.get('caption') as string) || null;
+  const modificationNotes = (formData.get('modificationNotes') as string) || null;
+  const editorialStatus = (formData.get('editorialStatus') as any) || 'PENDING_PHOTOGRAPHY';
+  const isPrimary = formData.get('isPrimary') === 'true' || role === 'hero';
+
+  const { photographyService } = await import('@/lib/services/photography-service');
+  const validation = photographyService.validateThirdPartyImage({
+    imageUrl,
+    altText,
+    role,
+    photographer,
+    captureDate,
+    source,
+    sourceUrl,
+    originalFileUrl,
+    license,
+    licenseUrl,
+    attribution,
+  });
+
+  const requiresEditorialReplacement =
+    editorialStatus !== 'VERIFIED_THIRD_PARTY' && editorialStatus !== 'VERIFIED_FIELD';
+
+  const { db, destinationImages } = await import('@/lib/db');
+  if (db) {
+    await db.insert(destinationImages).values({
+      destinationId,
+      imageUrl,
+      altText,
+      caption,
+      credit: photographer ? `${photographer} (${source})` : source,
+      license,
+      licenseUrl,
+      source,
+      sourceUrl,
+      originalFileUrl,
+      photographer,
+      captureDate,
+      attribution: validation.normalizedAttribution || attribution,
+      accessedAt: new Date(),
+      modificationNotes,
+      role,
+      editorialStatus,
+      requiresEditorialReplacement,
+      isPrimary,
+    });
+  }
+
+  revalidatePath(`/admin/destinations/${destinationId}`);
+  revalidatePath('/admin/destinations');
+  revalidatePath('/destinations');
+  return { success: true, validation };
+}

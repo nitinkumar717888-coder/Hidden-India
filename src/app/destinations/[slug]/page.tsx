@@ -38,6 +38,7 @@ export async function generateMetadata({
   const primaryImg = images.find((i) => i.isPrimary) || images[0];
   const isPublic = destination.editorialStatus === EditorialStatus.PUBLISHED;
 
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.pages.dev';
   const title = `${destination.name}, ${destination.state} — Hidden India`;
   const description = destination.shortDescription;
 
@@ -45,7 +46,7 @@ export async function generateMetadata({
     title,
     description,
     alternates: {
-      canonical: `https://hiddenindia.org/destinations/${destination.slug}`,
+      canonical: `${siteUrl}/destinations/${destination.slug}`,
     },
     robots: {
       index: isPublic,
@@ -54,11 +55,26 @@ export async function generateMetadata({
     openGraph: {
       title,
       description,
-      url: `https://hiddenindia.org/destinations/${destination.slug}`,
+      url: `${siteUrl}/destinations/${destination.slug}`,
       siteName: 'Hidden India',
       locale: 'en_IN',
       type: 'article',
-      images: primaryImg ? [{ url: primaryImg.imageUrl, alt: primaryImg.altText }] : [],
+      images: primaryImg
+        ? [
+            {
+              url: primaryImg.imageUrl,
+              alt: primaryImg.altText,
+              width: 1200,
+              height: 675,
+            },
+          ]
+        : [],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: primaryImg ? [primaryImg.imageUrl] : [],
     },
   };
 }
@@ -74,6 +90,7 @@ export default async function DestinationPage({ params, searchParams }: PageProp
 
   const { destination, categories, visitInfo, sources, evidenceItems, images } = record;
   const primaryImage = images.find((i) => i.isPrimary) || images[0] || null;
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.pages.dev';
 
   // JSON-LD Structured Data
   const jsonLd = {
@@ -86,25 +103,25 @@ export default async function DestinationPage({ params, searchParams }: PageProp
             '@type': 'ListItem',
             position: 1,
             name: 'Home',
-            item: 'https://hiddenindia.org',
+            item: siteUrl,
           },
           {
             '@type': 'ListItem',
             position: 2,
             name: 'Destinations',
-            item: 'https://hiddenindia.org/destinations',
+            item: `${siteUrl}/destinations`,
           },
           {
             '@type': 'ListItem',
             position: 3,
             name: destination.state,
-            item: `https://hiddenindia.org/states/${destination.state.toLowerCase()}`,
+            item: `${siteUrl}/states/${destination.state.toLowerCase()}`,
           },
           {
             '@type': 'ListItem',
             position: 4,
             name: destination.name,
-            item: `https://hiddenindia.org/destinations/${destination.slug}`,
+            item: `${siteUrl}/destinations/${destination.slug}`,
           },
         ],
       },
