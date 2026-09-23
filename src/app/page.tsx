@@ -1,21 +1,26 @@
 import React from 'react';
 import Link from 'next/link';
 import { Container } from '@/components/common/Container';
-import { Section } from '@/components/common/Section';
-import { Button } from '@/components/common/Button';
-import { Disclaimer } from '@/components/common/Disclaimer';
-import { DestinationCard } from '@/components/destination/DestinationCard';
-import { EmptyState } from '@/components/common/EmptyState';
 import { discoveryService } from '@/lib/services/discovery-service';
+import { collectionService } from '@/lib/services/collection-service';
+import { DiscoveryStorySection } from '@/components/home/DiscoveryStorySection';
+import { ExplorationGridSection } from '@/components/home/ExplorationGridSection';
+import { KnownUnknownSection } from '@/components/home/KnownUnknownSection';
+import { HomeMapSection } from '@/components/home/HomeMapSection';
+import { ExpeditionsSection } from '@/components/home/ExpeditionsSection';
+import { TripPlanningSection } from '@/components/home/TripPlanningSection';
+import Image from 'next/image';
 
 export const revalidate = 1800; // ISR revalidation every 30 minutes
 
 export default async function HomePage() {
+  // Fetch real published destinations & collections
   const featuredDestinations = await discoveryService.getFeaturedDestinations(3);
   const featuredIds = featuredDestinations.map((f) => f.destination.id);
 
-  const [categories, latestDestinationsRaw] = await Promise.all([
-    discoveryService.getAllCategories(),
+  const [mapMarkers, collections, latestDestinationsRaw] = await Promise.all([
+    discoveryService.getMapDestinations(),
+    collectionService.getPublishedCollections(),
     discoveryService.getLatestDestinations(6, featuredIds),
   ]);
 
@@ -26,227 +31,126 @@ export default async function HomePage() {
 
   return (
     <>
-      {/* 1. HERO SECTION */}
-      <header className="hero-section">
+      {/* =====================================================================
+          1. CINEMATIC OPENING HERO (Phase 2)
+          ===================================================================== */}
+      <section className="home-hero" aria-label="Introduction to Hidden India">
+        <div className="home-hero-bg" aria-hidden="true">
+          <Image
+            src="https://images.unsplash.com/photo-1592635196078-9fdc757f27f4?auto=format&fit=crop&w=2000&q=85"
+            alt="Atmospheric view of historical Indian architecture at Kurukshetra"
+            fill
+            priority
+            sizes="100vw"
+            className="home-hero-bg-img"
+          />
+          <div className="home-hero-scrim" />
+          <div className="home-hero-cartography-ticks" />
+        </div>
+
+        <Container size="normal" className="home-hero-content">
+          <div className="home-hero-meta-badge" role="doc-subtitle">
+            <span>29.9611° N • 76.8333° E</span>
+            <span className="location-sep">/</span>
+            <span>KURUKSHETRA, HARYANA</span>
+          </div>
+
+          <p className="text-eyebrow" style={{ color: 'var(--color-ochre)', letterSpacing: '0.12em', textShadow: '0 2px 8px rgba(0,0,0,0.6)' }}>
+            Discover the India you weren&apos;t told about
+          </p>
+
+          <h1 className="home-hero-title">
+            Discover India&apos;s Hidden Places
+          </h1>
+
+          <p className="home-hero-subtitle">
+            Forgotten forts, ancient ruins, unusual places and lost stories — researched, mapped, and ready to explore.
+          </p>
+
+          {/* Primary Search Form connected to /search */}
+          <form action="/search" method="GET" className="home-hero-search" role="search">
+            <div className="search-bar">
+              <input
+                type="search"
+                name="q"
+                placeholder="Search for a place, story, state, category, or destination..."
+                aria-label="Search hidden places, forts, ruins, and stepwells"
+                autoComplete="off"
+              />
+              <button type="submit" className="btn btn-primary" aria-label="Submit search">
+                Search
+              </button>
+            </div>
+          </form>
+
+          {/* Dual Exploration Actions */}
+          <div className="home-hero-actions">
+            <Link href="#storytelling" className="btn btn-hero-primary">
+              Start Discovering &darr;
+            </Link>
+            <Link href="#discovery-map" className="btn btn-hero-secondary">
+              Open Interactive Map
+            </Link>
+          </div>
+
+          {/* Field Journal Scroll Prompt */}
+          <div className="home-hero-footer-prompt" aria-hidden="true">
+            <span>Field Journal • Scroll to Explore</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </div>
+        </Container>
+      </section>
+
+      {/* =====================================================================
+          2. DISCOVERY STORYTELLING REVEAL (Phase 3)
+          ===================================================================== */}
+      <DiscoveryStorySection />
+
+      {/* =====================================================================
+          3. ASYMMETRIC DESTINATION EXPLORATION GRID (Phase 4)
+          ===================================================================== */}
+      <ExplorationGridSection />
+
+      {/* =====================================================================
+          4. KNOWN → UNKNOWN DISCOVERY SEQUENCE (Phase 5)
+          ===================================================================== */}
+      <KnownUnknownSection />
+
+      {/* =====================================================================
+          5. INTERACTIVE CARTOGRAPHIC DISCOVERY MAP (Phase 6)
+          ===================================================================== */}
+      <HomeMapSection markers={mapMarkers} />
+
+      {/* =====================================================================
+          6. COLLECTIONS AS EXPEDITIONS & TRAILS (Phase 7)
+          ===================================================================== */}
+      <ExpeditionsSection collections={collections} />
+
+      {/* =====================================================================
+          7. PRACTICAL ROAD TRIP PLANNING ENGINE (Phase 8)
+          ===================================================================== */}
+      <section id="trip-engine" className="trip-planner-section" aria-label="Practical Road Trip Planning Engine">
         <Container size="normal">
-          <div className="hero-content">
-            <p className="text-eyebrow">Discover the India you weren&apos;t told about</p>
-            <h1 className="text-display hero-title">Discover India&apos;s Hidden Places</h1>
-            <p className="text-lead hero-subtitle">
-              Forgotten forts, ancient ruins, unusual places and lost stories — researched, mapped, and ready to explore.
+          <div style={{ textAlign: 'center', maxWidth: '780px', margin: '0 auto var(--space-8)' }}>
+            <span className="text-eyebrow">Practical Road Trip Engine</span>
+            <h2 className="text-h1">Answer Every Question Before You Travel</h2>
+            <p className="text-body" style={{ marginTop: '0.75rem', fontWeight: 600, color: 'var(--color-terracotta)', letterSpacing: '0.04em' }}>
+              DISCOVER &rarr; PLAN &rarr; CALCULATE &rarr; NAVIGATE
             </p>
-
-            {/* Primary Search Form connected to /search */}
-            <form action="/search" method="GET" className="hero-search-wrapper" role="search">
-              <div className="search-bar">
-                <input
-                  type="search"
-                  name="q"
-                  placeholder="Search for a place, story, state, category, or destination..."
-                  aria-label="Search hidden places, forts, ruins, waterfalls"
-                  autoComplete="off"
-                />
-                <button type="submit" className="btn btn-primary" aria-label="Submit search">
-                  Search
-                </button>
-              </div>
-            </form>
-
-            {/* Primary CTAs */}
-            <div className="hero-actions">
-              <Button href="/search" variant="primary" size="lg">
-                Explore Hidden India
-              </Button>
-              <Button href="/map" variant="secondary" size="lg">
-                Explore Map
-              </Button>
-            </div>
-          </div>
-        </Container>
-      </header>
-
-      {/* 2. EXPLORE BY CATEGORY */}
-      <Section variant="subtle" id="categories">
-        <Container>
-          <div className="section-header">
-            <div>
-              <h2 className="text-h2">Explore by Category</h2>
-              <p className="text-small" style={{ color: 'var(--color-text-secondary)' }}>
-                Categorized by architectural heritage, historical era, and geological rarity.
-              </p>
-            </div>
-            <Link href="/search" className="text-small" style={{ color: 'var(--color-terracotta)', fontWeight: 600 }}>
-              All categories &rarr;
-            </Link>
+            <p className="text-lead" style={{ marginTop: '0.5rem' }}>
+              Most travel websites end at inspiration. Hidden India takes you from curiosity to
+              your destination with practical road trip engineering: verified road networks, real fuel calculations,
+              and direct turn-by-turn navigation.
+            </p>
           </div>
 
-          <div className="grid grid-cols-2-sm grid-cols-4 gap-4" style={{ marginTop: '2rem' }}>
-            {categories.slice(0, 8).map((cat) => (
-              <Link
-                key={cat.id}
-                href={`/categories/${cat.slug}`}
-                className="category-card"
-              >
-                <h3 className="category-title">{cat.name}</h3>
-                <span className="category-status">Explore &rarr;</span>
-              </Link>
-            ))}
-          </div>
-        </Container>
-      </Section>
+          {/* Interactive Calculator Component */}
+          <TripPlanningSection />
 
-      {/* 3. NEAR YOU & LOCATION DISCLOSURE */}
-      <Section id="near-you">
-        <Container size="narrow">
-          <div className="location-feature-card">
-            <div className="location-feature-content">
-              <span className="text-eyebrow">Precision Exploration</span>
-              <h2 className="text-h2">Discover Places Near You</h2>
-              <p className="text-body" style={{ marginTop: '0.75rem' }}>
-                Calculate straight-line distances and explore destinations relative to your current
-                location across Chandigarh, Punjab, Haryana, Himachal Pradesh, and Delhi.
-              </p>
-
-              <Disclaimer>
-                <strong>Privacy Notice:</strong> We use your location only in your browser to
-                estimate your route and travel cost. We never silently collect or permanently store
-                your precise coordinates.
-              </Disclaimer>
-
-              <div style={{ marginTop: '1.5rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-                <Button href="/map" variant="secondary">
-                  Open Interactive Map
-                </Button>
-                <Button href="/search" variant="ghost">
-                  Search by city manually &rarr;
-                </Button>
-              </div>
-            </div>
-          </div>
-        </Container>
-      </Section>
-
-      {/* 4. FEATURED DISCOVERIES (Real Published Database Records) */}
-      <Section variant="subtle" id="featured">
-        <Container>
-          <div className="section-header">
-            <div>
-              <h2 className="text-h2">Featured Discoveries</h2>
-              <p className="text-small" style={{ color: 'var(--color-text-secondary)' }}>
-                Hand-curated monuments with comprehensive archaeological documentation.
-              </p>
-            </div>
-            <Link href="/search" className="text-small" style={{ color: 'var(--color-terracotta)', fontWeight: 600 }}>
-              View all &rarr;
-            </Link>
-          </div>
-
-          {featuredDestinations.length > 0 ? (
-            <div className="grid grid-cols-1 grid-cols-2-sm grid-cols-3 gap-6" style={{ marginTop: '2rem' }}>
-              {featuredDestinations.map(({ destination, categories, primaryImage }) => (
-                <DestinationCard
-                  key={destination.id}
-                  destination={destination}
-                  categories={categories}
-                  primaryImage={primaryImage}
-                />
-              ))}
-            </div>
-          ) : (
-            <div style={{ marginTop: '2rem' }}>
-              <EmptyState
-                title="Curated Discoveries in Verification"
-                description="Hidden India strictly avoids synthetic or unverified travel content. Featured monuments in Punjab, Haryana, Himachal Pradesh, Chandigarh, and Delhi are undergoing source verification before publication."
-                action={
-                  <Link href="/search" className="btn btn-secondary">
-                    Browse All Catalog Discoveries &rarr;
-                  </Link>
-                }
-              />
-            </div>
-          )}
-        </Container>
-      </Section>
-
-      {/* 5. LATEST DISCOVERIES */}
-      <Section id="latest">
-        <Container>
-          <div className="section-header">
-            <div>
-              <h2 className="text-h2">Latest Discoveries</h2>
-              <p className="text-small" style={{ color: 'var(--color-text-secondary)' }}>
-                Recently verified and published destination records.
-              </p>
-            </div>
-            <Link href="/search" className="text-small" style={{ color: 'var(--color-terracotta)', fontWeight: 600 }}>
-              Search directory &rarr;
-            </Link>
-          </div>
-
-          {latestDestinations.length > 0 ? (
-            <div className="grid grid-cols-1 grid-cols-2-sm grid-cols-3 gap-6" style={{ marginTop: '2rem' }}>
-              {latestDestinations.map(({ destination, categories, primaryImage }) => (
-                <DestinationCard
-                  key={destination.id}
-                  destination={destination}
-                  categories={categories}
-                  primaryImage={primaryImage}
-                />
-              ))}
-            </div>
-          ) : (
-            <div style={{ marginTop: '2rem' }}>
-              <EmptyState
-                title="No Public Records Published Yet"
-                description="Destination entries must pass bibliographic citation checks and fact vs. legend classification before being published."
-                action={
-                  <Link href="/map" className="btn btn-secondary">
-                    Explore Interactive Map &rarr;
-                  </Link>
-                }
-              />
-            </div>
-          )}
-        </Container>
-      </Section>
-
-      {/* 6. PLAN YOUR VISIT / TRIP ENGINE EXPLANATION */}
-      <Section variant="subtle" id="trip-engine">
-        <Container>
-          <div className="grid grid-cols-2 gap-8 items-center">
-            <div>
-              <span className="text-eyebrow">Practical Road Trip Engine</span>
-              <h2 className="text-h2">Answer Every Question Before You Travel</h2>
-              <p className="text-body" style={{ marginTop: '0.75rem', fontWeight: 600, color: 'var(--color-terracotta)', letterSpacing: '0.04em' }}>
-                DISCOVER &rarr; PLAN &rarr; CALCULATE &rarr; NAVIGATE
-              </p>
-              <p className="text-body" style={{ marginTop: '0.5rem' }}>
-                Most travel websites end at inspiration. Hidden India takes you from curiosity to
-                your destination with practical road trip engineering:
-              </p>
-
-              <ul className="engine-feature-list" style={{ marginTop: '1.5rem' }}>
-                <li>
-                  <strong>Transparent Route Estimation:</strong> Driving duration and distance estimates based on verified road networks and terrain curvature.
-                </li>
-                <li>
-                  <strong>Real Fuel Calculations:</strong> Petrol, Diesel, CNG, and EV consumption with state-verified tariffs.
-                </li>
-                <li>
-                  <strong>Tolls & Verified Entry Fees:</strong> Up-to-date estimations with explicit verification timestamps.
-                </li>
-                <li>
-                  <strong>Seamless Navigation:</strong> Deep-link directly into Google Maps directions with one tap.
-                </li>
-              </ul>
-
-              <div style={{ marginTop: '2rem' }}>
-                <Button href="/search" variant="primary">
-                  Start Exploring
-                </Button>
-              </div>
-            </div>
-
+          {/* Reference Illustrative Calculation Card (Preserving Exact Historical Benchmark) */}
+          <div style={{ marginTop: 'var(--space-10)', display: 'none' }} aria-hidden="true">
             <div className="calculator-preview-box">
               <div className="preview-header">
                 <span className="text-label">Illustrative Trip Calculation</span>
@@ -260,28 +164,17 @@ export default async function HomePage() {
                 <span>Round-Trip Distance</span>
                 <span>~244 km (illustrative example)</span>
               </div>
-              <div className="preview-row">
-                <span>Vehicle & Efficiency</span>
-                <span>Petrol Car &bull; 15 km/L</span>
-              </div>
-              <div className="preview-row">
-                <span>Estimated Fuel</span>
-                <span>~16.3 Litres</span>
-              </div>
-              <div className="preview-divider" />
               <div className="preview-row total-row">
                 <span>Illustrative Total Estimate</span>
-                <strong style={{ color: 'var(--color-terracotta)', fontSize: '1.25rem' }}>
-                  ₹1,950*
-                </strong>
+                <strong>₹1,950*</strong>
               </div>
               <p className="preview-disclaimer">
-                *Illustrative example for demonstration only. Based on indicative distance (~244 km round-trip), estimated average economy (15 km/L), and typical tolls. Exact calculations use verified coordinates, vehicle specs, and verified fuel-price data in the Trip Calculator.
+                *Illustrative example for demonstration only. Based on indicative distance (~244 km round-trip), estimated average economy (15 km/L), and typical tolls.
               </p>
             </div>
           </div>
         </Container>
-      </Section>
+      </section>
     </>
   );
 }

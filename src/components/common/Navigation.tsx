@@ -11,15 +11,19 @@ export interface NavItem {
   isAction?: boolean;
 }
 
+export interface NavigationProps {
+  isHeroMode?: boolean;
+}
+
 const BASE_NAV_ITEMS: NavItem[] = [
   { label: 'Explore', href: '/search' },
+  { label: 'Destinations', href: '/destinations' },
   { label: 'Collections', href: '/collections' },
   { label: 'Map', href: '/map' },
-  { label: 'Destinations', href: '/destinations' },
-  { label: 'Plan a Trip', href: '/trips', isAction: true },
+  { label: 'Plan', href: '/trips', isAction: true },
 ];
 
-export const Navigation: React.FC = () => {
+export const Navigation: React.FC<NavigationProps> = ({ isHeroMode = false }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const pathname = usePathname();
@@ -49,8 +53,7 @@ export const Navigation: React.FC = () => {
   const navItems: NavItem[] = isAuthenticated
     ? [
         ...BASE_NAV_ITEMS,
-        { label: 'My Hidden India', href: '/saved' },
-        { label: 'My Trips', href: '/trips' },
+        { label: 'Saved', href: '/saved' },
         { label: 'Account', href: '/account' },
       ]
     : [
@@ -58,8 +61,10 @@ export const Navigation: React.FC = () => {
         { label: 'Sign In', href: '/login' },
       ];
 
+  const navClass = ['site-nav', isHeroMode ? 'nav-hero-mode' : ''].filter(Boolean).join(' ');
+
   return (
-    <nav className="site-nav" aria-label="Main Navigation">
+    <nav className={navClass} aria-label="Main Navigation">
       {/* Desktop Navigation Links */}
       <div className="nav-desktop">
         <ul className="nav-links">

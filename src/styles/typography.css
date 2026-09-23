@@ -15,6 +15,15 @@
   font-family: var(--font-mono);
 }
 
+.text-hero {
+  font-family: var(--font-serif);
+  font-size: var(--font-size-hero);
+  line-height: var(--line-height-tight);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--color-text-primary);
+}
+
 .text-display {
   font-family: var(--font-serif);
   font-size: var(--font-size-display);
@@ -23,6 +32,22 @@
   letter-spacing: -0.025em;
   color: var(--color-text-primary);
 }
+
+.text-coordinates {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-caption);
+  letter-spacing: var(--letter-spacing-wide);
+  text-transform: uppercase;
+  color: var(--color-ochre);
+}
+
+.text-micro {
+  font-size: var(--font-size-micro);
+  letter-spacing: var(--letter-spacing-widest);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 
 h1,
 .text-h1 {

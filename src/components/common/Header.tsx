@@ -1,11 +1,35 @@
-import React from 'react';
+'use client';
+
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { Container } from './Container';
 import { Navigation } from './Navigation';
 
 export const Header: React.FC = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+  const pathname = usePathname();
+  const isHomePage = pathname === '/';
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 40);
+    };
+
+    handleScroll();
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const headerClass = [
+    'site-header',
+    isHomePage && !isScrolled ? 'site-header-transparent' : 'site-header-scrolled',
+  ]
+    .filter(Boolean)
+    .join(' ');
+
   return (
-    <header className="site-header">
+    <header className={headerClass}>
       <Container size="wide">
         <div className="header-inner">
           {/* Brand Logo & Editorial Wordmark */}
@@ -16,7 +40,7 @@ export const Header: React.FC = () => {
 
           {/* Navigation with responsive drawer */}
           <div className="header-actions">
-            <Navigation />
+            <Navigation isHeroMode={isHomePage && !isScrolled} />
             <Link
               href="/search"
               className="search-icon-btn"
@@ -43,3 +67,4 @@ export const Header: React.FC = () => {
     </header>
   );
 };
+
