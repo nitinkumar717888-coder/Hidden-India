@@ -1,7 +1,8 @@
 # HIDDEN INDIA
 
 > **Discover the India you weren't told about.**  
-> A searchable discovery database of India's hidden, forgotten, unusual, historical, cultural, natural, and lesser-known places combined with a practical trip-planning engine.
+> A searchable discovery database of India's hidden, forgotten, unusual, historical, cultural, natural, and lesser-known places combined with a practical trip-planning engine.  
+> 🌐 **Live Production:** [https://hidden-india-lime.vercel.app](https://hidden-india-lime.vercel.app)
 
 ---
 

@@ -16,7 +16,7 @@ describe('Sitemap Generator Integration Tests', () => {
 
     const urls = entries.map((e) => e.url);
 
-    const expectedBaseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.pages.dev';
+    const expectedBaseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hidden-india-lime.vercel.app';
 
     // Root paths
     expect(urls).toContain(expectedBaseUrl);

@@ -38,7 +38,7 @@ export async function generateMetadata({
   const primaryImg = images.find((i) => i.isPrimary) || images[0];
   const isPublic = destination.editorialStatus === EditorialStatus.PUBLISHED;
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.pages.dev';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hidden-india-lime.vercel.app';
   const title = `${destination.name}, ${destination.state} — Hidden India`;
   const description = destination.shortDescription;
 
@@ -90,7 +90,7 @@ export default async function DestinationPage({ params, searchParams }: PageProp
 
   const { destination, categories, visitInfo, sources, evidenceItems, images } = record;
   const primaryImage = images.find((i) => i.isPrimary) || images[0] || null;
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.pages.dev';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hidden-india-lime.vercel.app';
 
   // JSON-LD Structured Data
   const jsonLd = {

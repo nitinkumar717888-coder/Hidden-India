@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
     };
   }
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.pages.dev';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hidden-india-lime.vercel.app';
   const title = `${category.name} in India — Hidden & Forgotten Discoveries`;
   const description =
     category.description ||
@@ -65,7 +65,7 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
     .filter((c) => c.slug !== category.slug)
     .slice(0, 6);
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.pages.dev';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hidden-india-lime.vercel.app';
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',

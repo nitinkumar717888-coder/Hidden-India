@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: StatePageProps): Promise<Meta
     };
   }
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.pages.dev';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hidden-india-lime.vercel.app';
   const title = `Hidden & Forgotten Places in ${stateMeta.name} — Hidden India`;
   const description = stateMeta.shortDesc;
 
@@ -67,7 +67,7 @@ export default async function StatePortalPage({ params, searchParams }: StatePag
 
   const { items, totalCount } = searchResult;
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.pages.dev';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hidden-india-lime.vercel.app';
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',

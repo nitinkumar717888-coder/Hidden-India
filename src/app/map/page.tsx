@@ -9,7 +9,7 @@ interface MapPageProps {
 
 export const dynamic = 'force-dynamic';
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hiddenindia.pages.dev';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hidden-india-lime.vercel.app';
 
 export const metadata: Metadata = {
   title: 'Interactive Discovery Map — Hidden India',
