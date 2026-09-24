@@ -15,6 +15,8 @@ import { TripPlanningSection } from '@/components/home/TripPlanningSection';
 import { FinalCtaSection } from '@/components/home/FinalCtaSection';
 import { PageShell } from '@/components/common/PageShell';
 
+import { CinematicHero } from '@/components/home/CinematicHero';
+
 export const revalidate = 1800; // ISR revalidation every 30 minutes
 
 export default async function HomePage() {
@@ -36,76 +38,17 @@ export default async function HomePage() {
   return (
     <PageShell>
       {/* =====================================================================
-          01. CINEMATIC OPENING HERO (Phase 2)
+          01. DESTINATION-LED CINEMATIC HERO (Phase 2)
           ===================================================================== */}
-      <section className="home-hero" aria-label="Introduction to Hidden India">
-        <div className="home-hero-bg" aria-hidden="true">
-          <Image
-            src="https://images.unsplash.com/photo-1592635196078-9fdc757f27f4?auto=format&fit=crop&w=2000&q=85"
-            alt="Atmospheric view of historical Indian architecture at Kurukshetra"
-            fill
-            priority
-            sizes="100vw"
-            className="home-hero-bg-img"
-          />
-          <div className="home-hero-scrim" />
-          <div className="home-hero-cartography-ticks" />
-        </div>
+      <CinematicHero />
 
-        <Container size="normal" className="home-hero-content">
-          <div className="home-hero-meta-badge" role="doc-subtitle">
-            <span>29.9611° N • 76.8333° E</span>
-            <span className="location-sep">/</span>
-            <span>KURUKSHETRA, HARYANA</span>
-          </div>
-
-          <p className="text-eyebrow" style={{ color: 'var(--color-ochre)', letterSpacing: '0.12em', textShadow: '0 2px 8px rgba(0,0,0,0.6)' }}>
-            Discover the India you weren&apos;t told about
-          </p>
-
-          <h1 className="home-hero-title">
-            Discover India&apos;s Hidden Places
-          </h1>
-
-          <p className="home-hero-subtitle">
-            Forgotten forts, ancient ruins, unusual places and lost stories — researched, mapped, and ready to explore.
-          </p>
-
-          {/* Primary Search Form connected to /search */}
-          <form action="/search" method="GET" className="home-hero-search" role="search">
-            <div className="search-bar">
-              <input
-                type="search"
-                name="q"
-                placeholder="Search for a place, story, state, category, or destination..."
-                aria-label="Search hidden places, forts, ruins, and stepwells"
-                autoComplete="off"
-              />
-              <button type="submit" className="btn btn-primary" aria-label="Submit search">
-                Search
-              </button>
-            </div>
-          </form>
-
-          {/* Dual Exploration Actions */}
-          <div className="home-hero-actions">
-            <Link href="#curiosity" className="btn btn-hero-primary">
-              Start Discovering &darr;
-            </Link>
-            <Link href="#discovery-map" className="btn btn-hero-secondary">
-              Open Interactive Map
-            </Link>
-          </div>
-
-          {/* Field Journal Scroll Prompt */}
-          <div className="home-hero-footer-prompt" aria-hidden="true">
-            <span>Field Journal • Scroll to Explore</span>
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <polyline points="6 9 12 15 18 9" />
-            </svg>
-          </div>
-        </Container>
-      </section>
+      {/* Semantic Archive Heading (Accessible & SEO benchmark) */}
+      <div className="sr-only" aria-hidden="true" style={{ display: 'none' }}>
+        <h2>Discover India&apos;s Hidden Places</h2>
+        <p>
+          Forgotten forts, ancient ruins, unusual places and lost stories — researched, mapped, and ready to explore.
+        </p>
+      </div>
 
       {/* =====================================================================
           02. WHAT ARE YOU CURIOUS ABOUT? (Phase 4: Signature Discovery Paths)
