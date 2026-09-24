@@ -13,6 +13,7 @@ import { HomeMapSection } from '@/components/home/HomeMapSection';
 import { StoriesFromIndiaSection } from '@/components/home/StoriesFromIndiaSection';
 import { TripPlanningSection } from '@/components/home/TripPlanningSection';
 import { FinalCtaSection } from '@/components/home/FinalCtaSection';
+import { PageShell } from '@/components/common/PageShell';
 
 export const revalidate = 1800; // ISR revalidation every 30 minutes
 
@@ -33,7 +34,7 @@ export default async function HomePage() {
     .slice(0, 3);
 
   return (
-    <>
+    <PageShell>
       {/* =====================================================================
           01. CINEMATIC OPENING HERO (Phase 2)
           ===================================================================== */}
@@ -193,6 +194,6 @@ export default async function HomePage() {
           10. THE MAP IS BIGGER THAN YOU THINK. (Phase 13: Final Emotional CTA)
           ===================================================================== */}
       <FinalCtaSection />
-    </>
+    </PageShell>
   );
 }

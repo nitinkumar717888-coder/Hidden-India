@@ -1,0 +1,444 @@
+/**
+ * HIDDEN INDIA — PHASE 1: GLOBAL DESIGN FOUNDATION
+ * Reference: Centered premium website shell, pale sage outer canvas, white rounded content shell,
+ * modern travel-product aesthetic, generous spacing, restrained shadows, clean typography.
+ */
+
+:root {
+  /* ==========================================================================
+     1. Global Color System
+     ========================================================================== */
+  --hi-bg: #EAF5EF;                /* Pale sage / mint outer background */
+  --hi-surface: #FFFFFF;           /* Main website surface */
+  --hi-surface-warm: #F8F5EE;      /* Warm secondary surface */
+  --hi-text: #151816;              /* Deep charcoal primary text */
+  --hi-text-muted: #59615C;        /* Muted neutral gray */
+  --hi-forest: #063B2A;            /* Deep forest green */
+  --hi-forest-hover: #04291D;
+  --hi-accent: #AD4426;            /* Normalized Hidden India terracotta / orange */
+  --hi-accent-hover: #92371D;
+  --hi-border: rgba(21, 24, 22, 0.08); /* Very light neutral border */
+  --hi-border-subtle: #E2EBE5;
+  --hi-border-dark: rgba(255, 255, 255, 0.12);
+
+  /* ==========================================================================
+     2. Typography System
+     ========================================================================== */
+  --hi-font-ui: var(--font-inter), "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --hi-font-editorial: var(--font-playfair), "Playfair Display", "Literata", "Georgia", "Times New Roman", serif;
+
+  /* Typography Scales */
+  --hi-size-display: clamp(2.5rem, 4.5vw + 1rem, 4.25rem);
+  --hi-size-h1: clamp(2.15rem, 3.2vw + 0.8rem, 3.25rem);
+  --hi-size-h2: clamp(1.75rem, 2.2vw + 0.5rem, 2.5rem);
+  --hi-size-h3: clamp(1.25rem, 1.2vw + 0.3rem, 1.75rem);
+  --hi-size-body-lg: clamp(1.125rem, 0.5vw + 0.85rem, 1.25rem);
+  --hi-size-body: clamp(0.95rem, 0.2vw + 0.9rem, 1.05rem);
+  --hi-size-small: 0.875rem;
+  --hi-size-meta: 0.6875rem;
+  --hi-size-btn: 0.875rem;
+
+  --hi-leading-tight: 1.1;
+  --hi-leading-heading: 1.2;
+  --hi-leading-body: 1.6;
+
+  /* ==========================================================================
+     3. Spacing Scale (4, 8, 12, 16, 24, 32, 40, 48, 64, 80, 96, 120)
+     ========================================================================== */
+  --hi-space-4: 0.25rem;   /* 4px */
+  --hi-space-8: 0.5rem;    /* 8px */
+  --hi-space-12: 0.75rem;  /* 12px */
+  --hi-space-16: 1rem;     /* 16px */
+  --hi-space-24: 1.5rem;   /* 24px */
+  --hi-space-32: 2rem;     /* 32px */
+  --hi-space-40: 2.5rem;   /* 40px */
+  --hi-space-48: 3rem;     /* 48px */
+  --hi-space-64: 4rem;     /* 64px */
+  --hi-space-80: 5rem;     /* 80px */
+  --hi-space-96: 6rem;     /* 96px */
+  --hi-space-120: 7.5rem;  /* 120px */
+
+  /* ==========================================================================
+     4. Border Radius System
+     ========================================================================== */
+  --hi-radius-sm: 8px;
+  --hi-radius-md: 12px;
+  --hi-radius-lg: 16px;
+  --hi-radius-xl: 24px;
+  --hi-radius-shell: 28px;
+
+  /* ==========================================================================
+     5. Shadow System
+     ========================================================================== */
+  --hi-shadow-card: 0 10px 30px rgba(20, 30, 25, 0.06);
+  --hi-shadow-shell: 0 20px 60px rgba(6, 59, 42, 0.08);
+
+  /* ==========================================================================
+     6. Container Widths
+     ========================================================================== */
+  --hi-container-shell: 1400px;
+  --hi-container-content: 1240px;
+  --hi-gutter-mobile: 1.25rem;
+  --hi-gutter-desktop: 2.5rem;
+
+  /* ==========================================================================
+     7. Motion System
+     ========================================================================== */
+  --hi-motion-fast: 150ms;
+  --hi-motion-normal: 250ms;
+  --hi-motion-medium: 400ms;
+  --hi-motion-cinematic: 750ms;
+  --hi-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ==========================================================================
+   Page Shell Foundation (Desktop centered floating shell / Mobile full width)
+   ========================================================================== */
+.hi-page-outer {
+  background-color: var(--hi-bg);
+  min-height: 100vh;
+  width: 100%;
+  padding: 0;
+  transition: padding var(--hi-motion-normal) var(--hi-ease);
+}
+
+@media (min-width: 1200px) {
+  .hi-page-outer {
+    padding: var(--hi-space-32) var(--hi-space-24);
+  }
+}
+
+.hi-page-shell {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: var(--hi-surface);
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  overflow: hidden;
+  position: relative;
+  transition: border-radius var(--hi-motion-normal) var(--hi-ease),
+              box-shadow var(--hi-motion-normal) var(--hi-ease),
+              max-width var(--hi-motion-normal) var(--hi-ease);
+}
+
+@media (min-width: 1200px) {
+  .hi-page-shell {
+    max-width: var(--hi-container-shell);
+    border-radius: var(--hi-radius-shell);
+    box-shadow: var(--hi-shadow-shell);
+    border: 1px solid var(--hi-border);
+  }
+}
+
+/* ==========================================================================
+   Container & Section Utilities
+   ========================================================================== */
+.hi-container {
+  width: 100%;
+  max-width: var(--hi-container-content);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--hi-gutter-mobile);
+  padding-right: var(--hi-gutter-mobile);
+}
+
+@media (min-width: 768px) {
+  .hi-container {
+    padding-left: var(--hi-gutter-desktop);
+    padding-right: var(--hi-gutter-desktop);
+  }
+}
+
+.hi-section {
+  padding-top: var(--hi-space-64);
+  padding-bottom: var(--hi-space-64);
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .hi-section {
+    padding-top: var(--hi-space-96);
+    padding-bottom: var(--hi-space-96);
+  }
+}
+
+.hi-section-header {
+  margin-bottom: var(--hi-space-32);
+}
+
+.hi-media-bleed {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Typography Utilities
+   ========================================================================== */
+.hi-display {
+  font-family: var(--hi-font-editorial);
+  font-size: var(--hi-size-display);
+  line-height: var(--hi-leading-tight);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--hi-text);
+}
+
+.hi-h1 {
+  font-family: var(--hi-font-editorial);
+  font-size: var(--hi-size-h1);
+  line-height: var(--hi-leading-heading);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--hi-text);
+}
+
+.hi-h2 {
+  font-family: var(--hi-font-editorial);
+  font-size: var(--hi-size-h2);
+  line-height: var(--hi-leading-heading);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: var(--hi-text);
+}
+
+.hi-h3 {
+  font-family: var(--hi-font-ui);
+  font-size: var(--hi-size-h3);
+  line-height: var(--hi-leading-heading);
+  font-weight: 600;
+  color: var(--hi-text);
+}
+
+.hi-body-lg {
+  font-family: var(--hi-font-ui);
+  font-size: var(--hi-size-body-lg);
+  line-height: var(--hi-leading-body);
+  color: var(--hi-text-muted);
+}
+
+.hi-body {
+  font-family: var(--hi-font-ui);
+  font-size: var(--hi-size-body);
+  line-height: var(--hi-leading-body);
+  color: var(--hi-text);
+}
+
+.hi-small {
+  font-family: var(--hi-font-ui);
+  font-size: var(--hi-size-small);
+  line-height: 1.5;
+  color: var(--hi-text-muted);
+}
+
+.hi-metadata {
+  font-family: var(--hi-font-ui);
+  font-size: var(--hi-size-meta);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+  color: var(--hi-text-muted);
+}
+
+.hi-metadata-accent {
+  color: var(--hi-accent);
+}
+
+.hi-eyebrow {
+  font-family: var(--hi-font-ui);
+  font-size: var(--hi-size-small);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--hi-accent);
+  margin-bottom: var(--hi-space-8);
+  display: block;
+}
+
+/* ==========================================================================
+   Button Foundation (Consistent height, radius, padding, hover, focus)
+   ========================================================================== */
+.hi-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--hi-space-8);
+  font-family: var(--hi-font-ui);
+  font-size: var(--hi-size-btn);
+  font-weight: 500;
+  line-height: 1;
+  padding: 0.75rem 1.35rem;
+  min-height: 44px;
+  border-radius: var(--hi-radius-sm);
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color var(--hi-motion-normal) var(--hi-ease),
+              border-color var(--hi-motion-normal) var(--hi-ease),
+              color var(--hi-motion-normal) var(--hi-ease),
+              transform var(--hi-motion-fast) var(--hi-ease);
+  white-space: nowrap;
+}
+
+.hi-btn:active {
+  transform: translateY(1px);
+}
+
+.hi-btn-primary {
+  background-color: var(--hi-accent);
+  color: #FFFFFF;
+  border-color: var(--hi-accent);
+}
+
+.hi-btn-primary:hover:not(:disabled) {
+  background-color: var(--hi-accent-hover);
+  border-color: var(--hi-accent-hover);
+  color: #FFFFFF;
+}
+
+.hi-btn-secondary {
+  background-color: var(--hi-surface);
+  color: var(--hi-text);
+  border-color: var(--hi-border-subtle);
+}
+
+.hi-btn-secondary:hover:not(:disabled) {
+  background-color: var(--hi-surface-warm);
+  border-color: rgba(21, 24, 22, 0.2);
+}
+
+.hi-btn-dark {
+  background-color: var(--hi-forest);
+  color: #FFFFFF;
+  border-color: var(--hi-forest);
+}
+
+.hi-btn-dark:hover:not(:disabled) {
+  background-color: var(--hi-forest-hover);
+  border-color: var(--hi-forest-hover);
+  color: #FFFFFF;
+}
+
+.hi-btn-ghost {
+  background-color: transparent;
+  color: var(--hi-text);
+  border-color: transparent;
+}
+
+.hi-btn-ghost:hover:not(:disabled) {
+  background-color: var(--hi-surface-warm);
+}
+
+/* ==========================================================================
+   Link Foundation
+   ========================================================================== */
+.hi-link {
+  font-family: var(--hi-font-ui);
+  color: var(--hi-text);
+  text-decoration: none;
+  transition: color var(--hi-motion-normal) var(--hi-ease);
+}
+
+.hi-link:hover {
+  color: var(--hi-accent);
+}
+
+.hi-link-arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--hi-space-8);
+  font-family: var(--hi-font-ui);
+  font-size: var(--hi-size-small);
+  font-weight: 600;
+  color: var(--hi-accent);
+  text-decoration: none;
+  transition: color var(--hi-motion-normal) var(--hi-ease);
+}
+
+.hi-link-arrow .arrow-icon {
+  display: inline-block;
+  transition: transform var(--hi-motion-normal) var(--hi-ease);
+}
+
+.hi-link-arrow:hover .arrow-icon {
+  transform: translateX(4px);
+}
+
+/* ==========================================================================
+   Image Container Foundation (Overflow hidden, consistent radius, aspect ratio)
+   ========================================================================== */
+.hi-image-frame {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--hi-radius-lg);
+  background-color: var(--hi-surface-warm);
+  width: 100%;
+}
+
+.hi-image-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--hi-motion-cinematic) var(--hi-ease);
+}
+
+.hi-image-frame:hover img {
+  transform: scale(1.03);
+}
+
+/* ==========================================================================
+   Card Foundation (Reusable premium card structure)
+   ========================================================================== */
+.hi-card {
+  background-color: var(--hi-surface);
+  border: 1px solid var(--hi-border);
+  border-radius: var(--hi-radius-lg);
+  box-shadow: var(--hi-shadow-card);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--hi-motion-normal) var(--hi-ease),
+              box-shadow var(--hi-motion-normal) var(--hi-ease),
+              border-color var(--hi-motion-normal) var(--hi-ease);
+}
+
+.hi-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(21, 24, 22, 0.16);
+}
+
+.hi-card-body {
+  padding: var(--hi-space-24);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* ==========================================================================
+   Accessibility & Reduced Motion Overrides
+   ========================================================================== */
+:focus-visible {
+  outline: 2px solid var(--hi-accent);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .hi-image-frame img,
+  .hi-card,
+  .hi-link-arrow .arrow-icon {
+    transform: none !important;
+    transition: none !important;
+  }
+}
