@@ -856,7 +856,843 @@
 }
 
 /* ==========================================================================
-   Phase 9 & 10: Motion & Mobile Overrides
+   Phase 4: Signature Interactive Curiosity Paths ("What are you curious about?")
+   ========================================================================== */
+.curiosity-section {
+  padding-top: var(--space-20);
+  padding-bottom: var(--space-20);
+  background-color: var(--color-bg-canvas);
+  position: relative;
+}
+
+.curiosity-header {
+  text-align: center;
+  max-width: 780px;
+  margin: 0 auto var(--space-10);
+}
+
+.curiosity-subtitle {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: var(--font-size-lead);
+  color: var(--color-text-secondary);
+  margin-top: 0.5rem;
+}
+
+.curiosity-stage {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.curiosity-hero-card {
+  position: relative;
+  min-height: 480px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-cinematic);
+  border: 1px solid var(--color-border-dark);
+  background-color: var(--color-bg-dark);
+}
+
+@media (min-width: 768px) {
+  .curiosity-hero-card {
+    min-height: 540px;
+  }
+}
+
+.curiosity-image-wrap {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.curiosity-bg-img {
+  object-fit: cover;
+  transition: opacity 600ms var(--ease-editorial), transform 1.2s var(--ease-editorial);
+}
+
+.curiosity-hero-card:hover .curiosity-bg-img {
+  transform: scale(1.02);
+}
+
+.curiosity-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: linear-gradient(
+    180deg,
+    rgba(14, 18, 15, 0.45) 0%,
+    rgba(14, 18, 15, 0.25) 30%,
+    rgba(14, 18, 15, 0.75) 70%,
+    rgba(14, 18, 15, 0.95) 100%
+  );
+}
+
+.curiosity-editorial-overlay {
+  position: relative;
+  z-index: 10;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--space-6);
+  color: #FAF7F2;
+}
+
+@media (min-width: 768px) {
+  .curiosity-editorial-overlay {
+    padding: var(--space-12);
+  }
+}
+
+.curiosity-top-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.curiosity-num-tag {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-caption);
+  color: var(--color-ochre);
+  font-weight: 700;
+  letter-spacing: var(--letter-spacing-widest);
+}
+
+.curiosity-coord-tag {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-caption);
+  color: rgba(250, 247, 242, 0.75);
+}
+
+.curiosity-loc-tag {
+  font-size: var(--font-size-micro);
+  letter-spacing: var(--letter-spacing-widest);
+  text-transform: uppercase;
+  color: var(--color-text-inverse-muted);
+}
+
+.curiosity-active-title {
+  font-family: var(--font-serif);
+  font-size: var(--font-size-h2);
+  line-height: 1.15;
+  color: #FAF7F2;
+  margin-bottom: var(--space-2);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.curiosity-active-tagline {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: var(--font-size-lead);
+  color: rgba(250, 247, 242, 0.9);
+  margin-bottom: var(--space-5);
+  max-width: 600px;
+}
+
+.curiosity-destinations-bar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-6);
+  flex-wrap: wrap;
+}
+
+.curiosity-dest-label {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-micro);
+  letter-spacing: var(--letter-spacing-wide);
+  color: var(--color-ochre);
+  text-transform: uppercase;
+}
+
+.curiosity-dest-pills {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.curiosity-pill {
+  font-size: var(--font-size-caption);
+  color: #FAF7F2;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+.curiosity-pill:hover {
+  background: var(--color-terracotta);
+  border-color: var(--color-terracotta);
+}
+
+.curiosity-action-row {
+  display: flex;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+/* 4 Bottom Discovery Path Selector Tabs */
+.curiosity-tabs {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-3);
+}
+
+@media (min-width: 640px) {
+  .curiosity-tabs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .curiosity-tabs {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.curiosity-tab-btn {
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border-medium);
+  border-radius: var(--radius-sm);
+  padding: var(--space-4);
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  gap: var(--space-3);
+  align-items: flex-start;
+  transition: all var(--transition-fast);
+  box-shadow: var(--shadow-subtle);
+}
+
+.curiosity-tab-btn:hover {
+  border-color: var(--color-terracotta);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card);
+}
+
+.curiosity-tab-active {
+  background: var(--color-bg-dark);
+  border-color: var(--color-border-dark);
+  color: #FAF7F2;
+  box-shadow: var(--shadow-elevated);
+}
+
+.curiosity-tab-btn .tab-number {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-micro);
+  font-weight: 700;
+  color: var(--color-ochre);
+  padding-top: 0.15rem;
+}
+
+.curiosity-tab-btn .tab-text-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.curiosity-tab-btn .tab-title {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-small);
+  font-weight: 700;
+  letter-spacing: var(--letter-spacing-wide);
+  color: var(--color-text-primary);
+  margin-bottom: 0.2rem;
+}
+
+.curiosity-tab-active .tab-title {
+  color: #FAF7F2;
+}
+
+.curiosity-tab-btn .tab-tagline {
+  font-size: var(--font-size-caption);
+  color: var(--color-text-muted);
+  line-height: 1.4;
+}
+
+.curiosity-tab-active .tab-tagline {
+  color: rgba(250, 247, 242, 0.7);
+}
+
+/* ==========================================================================
+   Phase 5: "Look Closer" Cinematic Single Destination Reveal
+   ========================================================================== */
+.look-closer-section {
+  padding-top: var(--space-20);
+  padding-bottom: var(--space-20);
+  background-color: var(--color-bg-dark);
+  color: #FAF7F2;
+}
+
+.look-closer-header {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto var(--space-10);
+}
+
+.look-closer-title {
+  color: #FAF7F2;
+  margin-top: 0.25rem;
+}
+
+.look-closer-subtitle {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: var(--font-size-lead);
+  color: rgba(250, 247, 242, 0.8);
+  margin-top: 0.5rem;
+}
+
+.look-closer-stage {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-cinematic);
+  border: 1px solid var(--color-border-dark);
+}
+
+.look-closer-img-box {
+  position: relative;
+  min-height: 520px;
+  display: flex;
+  align-items: flex-end;
+  padding: var(--space-6);
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .look-closer-img-box {
+    min-height: 640px;
+    padding: var(--space-12);
+  }
+}
+
+.look-closer-img {
+  object-fit: cover;
+  transition: transform 1.4s var(--ease-editorial);
+}
+
+.look-closer-stage:hover .look-closer-img {
+  transform: scale(1.03);
+}
+
+.look-closer-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: linear-gradient(
+    180deg,
+    rgba(14, 18, 15, 0.3) 0%,
+    rgba(14, 18, 15, 0.4) 40%,
+    rgba(14, 18, 15, 0.88) 85%,
+    var(--color-bg-dark) 100%
+  );
+}
+
+.look-closer-content {
+  position: relative;
+  z-index: 10;
+  max-width: 680px;
+}
+
+.look-closer-meta {
+  display: flex;
+  gap: var(--space-3);
+  margin-bottom: var(--space-3);
+  align-items: center;
+}
+
+.look-closer-coords {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-caption);
+  color: var(--color-ochre);
+}
+
+.look-closer-loc {
+  font-size: var(--font-size-micro);
+  letter-spacing: var(--letter-spacing-widest);
+  text-transform: uppercase;
+  color: var(--color-text-inverse-muted);
+}
+
+.look-closer-name {
+  font-family: var(--font-serif);
+  font-size: var(--font-size-h1);
+  color: #FAF7F2;
+  line-height: 1.1;
+  margin-bottom: var(--space-4);
+  letter-spacing: -0.01em;
+}
+
+.look-closer-editorial-sentence {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: var(--font-size-lead);
+  color: rgba(250, 247, 242, 0.9);
+  line-height: 1.5;
+  margin-bottom: var(--space-6);
+}
+
+/* ==========================================================================
+   Phase 6: Continuous Horizontal Discovery Reel
+   ========================================================================== */
+.discovery-reel-section {
+  padding-top: var(--space-20);
+  padding-bottom: var(--space-20);
+  background-color: var(--color-bg-subtle);
+  border-top: 1px solid var(--color-border-subtle);
+  border-bottom: 1px solid var(--color-border-subtle);
+  overflow: hidden;
+}
+
+.discovery-reel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: var(--space-8);
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+
+.discovery-reel-sub {
+  font-size: var(--font-size-lead);
+  color: var(--color-text-secondary);
+  margin-top: 0.25rem;
+}
+
+.discovery-reel-nav-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.reel-nav-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--color-border-medium);
+  background: var(--color-bg-surface);
+  color: var(--color-text-primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.reel-nav-btn:hover {
+  background: var(--color-bg-dark);
+  color: #FAF7F2;
+  border-color: var(--color-bg-dark);
+}
+
+.discovery-reel-track {
+  display: flex;
+  gap: var(--space-6);
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  padding-bottom: var(--space-4);
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border-strong) transparent;
+}
+
+.discovery-reel-card {
+  flex: 0 0 320px;
+  scroll-snap-align: start;
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border-medium);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+@media (min-width: 768px) {
+  .discovery-reel-card {
+    flex: 0 0 380px;
+  }
+}
+
+.discovery-reel-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-elevated);
+}
+
+.reel-card-img-box {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+}
+
+.reel-card-img {
+  object-fit: cover;
+  transition: transform 0.8s var(--ease-editorial);
+}
+
+.discovery-reel-card:hover .reel-card-img {
+  transform: scale(1.05);
+}
+
+.reel-card-scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 50%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.reel-card-step {
+  position: absolute;
+  top: var(--space-3);
+  left: var(--space-3);
+  background: rgba(20, 25, 22, 0.85);
+  backdrop-filter: blur(8px);
+  color: var(--color-ochre);
+  font-family: var(--font-mono);
+  font-size: var(--font-size-micro);
+  letter-spacing: var(--letter-spacing-widest);
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--radius-xs);
+}
+
+.reel-card-body {
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.reel-card-meta-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.35rem;
+}
+
+.reel-coords {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-caption);
+  color: var(--color-ochre);
+}
+
+.reel-era {
+  font-size: var(--font-size-micro);
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.reel-title {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  line-height: 1.25;
+  margin-bottom: 0.25rem;
+}
+
+.reel-location {
+  font-size: var(--font-size-caption);
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-3);
+}
+
+.reel-tagline {
+  font-size: var(--font-size-small);
+  color: var(--color-text-secondary);
+  line-height: 1.55;
+  margin-bottom: var(--space-5);
+}
+
+.reel-card-footer {
+  margin-top: auto;
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--color-border-subtle);
+}
+
+.reel-cta-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: var(--font-size-small);
+  font-weight: 600;
+  color: var(--color-terracotta);
+  text-decoration: none;
+  transition: gap var(--transition-fast);
+}
+
+.reel-cta-link:hover .reel-arrow {
+  transform: translateX(4px);
+}
+
+/* ==========================================================================
+   Phase 10: Stories From India (Editorial Magazine Layout)
+   ========================================================================== */
+.stories-section {
+  padding-top: var(--space-20);
+  padding-bottom: var(--space-20);
+  background-color: var(--color-bg-canvas);
+}
+
+.stories-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: var(--space-10);
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+
+.stories-sub {
+  font-size: var(--font-size-lead);
+  color: var(--color-text-secondary);
+  margin-top: 0.25rem;
+}
+
+.stories-magazine-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-8);
+}
+
+@media (min-width: 960px) {
+  .stories-magazine-grid {
+    grid-template-columns: 1.35fr 1fr;
+  }
+}
+
+.story-featured-card {
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border-medium);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+}
+
+.story-featured-img-wrap {
+  position: relative;
+  height: 360px;
+  overflow: hidden;
+}
+
+.story-featured-img {
+  object-fit: cover;
+  transition: transform 0.9s var(--ease-editorial);
+}
+
+.story-featured-card:hover .story-featured-img {
+  transform: scale(1.03);
+}
+
+.story-featured-category {
+  position: absolute;
+  top: var(--space-4);
+  left: var(--space-4);
+  background: var(--color-bg-dark);
+  color: var(--color-ochre);
+  font-family: var(--font-mono);
+  font-size: var(--font-size-micro);
+  letter-spacing: var(--letter-spacing-widest);
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--radius-xs);
+  text-transform: uppercase;
+}
+
+.story-featured-body {
+  padding: var(--space-8);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.story-meta-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-3);
+  font-size: var(--font-size-caption);
+  color: var(--color-text-muted);
+}
+
+.story-dest-tag {
+  color: var(--color-terracotta);
+  font-weight: 600;
+}
+
+.story-featured-title {
+  font-family: var(--font-serif);
+  font-size: var(--font-size-h2);
+  line-height: 1.15;
+  margin-bottom: var(--space-3);
+}
+
+.story-featured-desc {
+  font-size: var(--font-size-body);
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
+
+.supporting-stories-stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.supporting-story-card {
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border-medium);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-subtle);
+  display: grid;
+  grid-template-columns: 1fr;
+  transition: transform var(--transition-fast), border-color var(--transition-fast);
+}
+
+@media (min-width: 500px) {
+  .supporting-story-card {
+    grid-template-columns: 140px 1fr;
+  }
+}
+
+.supporting-story-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--color-terracotta);
+}
+
+.supporting-story-img-wrap {
+  position: relative;
+  min-height: 140px;
+  overflow: hidden;
+}
+
+.supporting-story-img {
+  object-fit: cover;
+  transition: transform 0.8s var(--ease-editorial);
+}
+
+.supporting-story-card:hover .supporting-story-img {
+  transform: scale(1.05);
+}
+
+.supporting-story-body {
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.story-category-tag {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-micro);
+  color: var(--color-ochre);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+}
+
+.supporting-story-title {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  line-height: 1.25;
+  margin-bottom: 0.35rem;
+}
+
+.supporting-story-desc {
+  font-size: var(--font-size-caption);
+  color: var(--color-text-secondary);
+  line-height: 1.45;
+  margin-bottom: 0.5rem;
+}
+
+.supporting-cta {
+  font-size: var(--font-size-caption);
+  color: var(--color-terracotta);
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+/* ==========================================================================
+   Phase 13: Final Emotional CTA Section
+   ========================================================================== */
+.final-cta-section {
+  position: relative;
+  padding-top: var(--space-24);
+  padding-bottom: var(--space-24);
+  background-color: var(--color-bg-dark);
+  color: #FAF7F2;
+  overflow: hidden;
+  text-align: center;
+}
+
+.final-cta-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.final-cta-bg-img {
+  object-fit: cover;
+  opacity: 0.25;
+}
+
+.final-cta-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: radial-gradient(circle at 50% 50%, rgba(14, 18, 15, 0.7) 0%, var(--color-bg-dark) 90%);
+}
+
+.final-cta-content {
+  position: relative;
+  z-index: 10;
+}
+
+.final-cta-title {
+  font-family: var(--font-serif);
+  font-size: var(--font-size-hero);
+  color: #FAF7F2;
+  line-height: 1.05;
+  margin-top: var(--space-3);
+  margin-bottom: var(--space-5);
+  letter-spacing: -0.02em;
+}
+
+.final-cta-sub {
+  font-size: var(--font-size-lead);
+  color: rgba(250, 247, 242, 0.85);
+  max-width: 620px;
+  margin: 0 auto var(--space-8);
+  line-height: 1.6;
+}
+
+.final-cta-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-10);
+}
+
+.final-cta-coordinates {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-micro);
+  letter-spacing: var(--letter-spacing-widest);
+  color: rgba(250, 247, 242, 0.5);
+  text-transform: uppercase;
+}
+
+/* ==========================================================================
+   Phase 15 & 16: Motion & Mobile Overrides
    ========================================================================== */
 @media (prefers-reduced-motion: reduce) {
   *,
@@ -869,12 +1705,15 @@
   }
 
   .home-hero-bg-img,
-  .story-image,
-  .asymmetric-hero-image-wrap img,
-  .asymmetric-horizontal-img-wrap img,
-  .known-card-img-wrap img,
-  .expedition-img-wrap img {
+  .curiosity-bg-img,
+  .look-closer-img,
+  .reel-card-img,
+  .story-featured-img,
+  .supporting-story-img,
+  .expedition-img-wrap img,
+  .known-card-img-wrap img {
     transform: none !important;
     transition: none !important;
   }
 }
+

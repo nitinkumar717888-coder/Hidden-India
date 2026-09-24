@@ -1,15 +1,18 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Container } from '@/components/common/Container';
 import { discoveryService } from '@/lib/services/discovery-service';
 import { collectionService } from '@/lib/services/collection-service';
-import { DiscoveryStorySection } from '@/components/home/DiscoveryStorySection';
-import { ExplorationGridSection } from '@/components/home/ExplorationGridSection';
+import { CuriosityPathsSection } from '@/components/home/CuriosityPathsSection';
+import { LookCloserSection } from '@/components/home/LookCloserSection';
+import { DiscoveryReelSection } from '@/components/home/DiscoveryReelSection';
 import { KnownUnknownSection } from '@/components/home/KnownUnknownSection';
-import { HomeMapSection } from '@/components/home/HomeMapSection';
 import { ExpeditionsSection } from '@/components/home/ExpeditionsSection';
+import { HomeMapSection } from '@/components/home/HomeMapSection';
+import { StoriesFromIndiaSection } from '@/components/home/StoriesFromIndiaSection';
 import { TripPlanningSection } from '@/components/home/TripPlanningSection';
-import Image from 'next/image';
+import { FinalCtaSection } from '@/components/home/FinalCtaSection';
 
 export const revalidate = 1800; // ISR revalidation every 30 minutes
 
@@ -32,7 +35,7 @@ export default async function HomePage() {
   return (
     <>
       {/* =====================================================================
-          1. CINEMATIC OPENING HERO (Phase 2)
+          01. CINEMATIC OPENING HERO (Phase 2)
           ===================================================================== */}
       <section className="home-hero" aria-label="Introduction to Hidden India">
         <div className="home-hero-bg" aria-hidden="true">
@@ -85,7 +88,7 @@ export default async function HomePage() {
 
           {/* Dual Exploration Actions */}
           <div className="home-hero-actions">
-            <Link href="#storytelling" className="btn btn-hero-primary">
+            <Link href="#curiosity" className="btn btn-hero-primary">
               Start Discovering &darr;
             </Link>
             <Link href="#discovery-map" className="btn btn-hero-secondary">
@@ -104,32 +107,42 @@ export default async function HomePage() {
       </section>
 
       {/* =====================================================================
-          2. DISCOVERY STORYTELLING REVEAL (Phase 3)
+          02. WHAT ARE YOU CURIOUS ABOUT? (Phase 4: Signature Discovery Paths)
           ===================================================================== */}
-      <DiscoveryStorySection />
+      <CuriosityPathsSection />
 
       {/* =====================================================================
-          3. ASYMMETRIC DESTINATION EXPLORATION GRID (Phase 4)
+          03. LOOK CLOSER (Phase 5: Cinematic Destination Reveal)
           ===================================================================== */}
-      <ExplorationGridSection />
+      <LookCloserSection />
 
       {/* =====================================================================
-          4. KNOWN → UNKNOWN DISCOVERY SEQUENCE (Phase 5)
+          04. DISCOVERY REEL (Phase 6: Multi-Destination Sequence)
+          ===================================================================== */}
+      <DiscoveryReelSection />
+
+      {/* =====================================================================
+          05. YOU KNOW THE PLACE. NOW LOOK CLOSER. (Phase 7: Known → Unknown)
           ===================================================================== */}
       <KnownUnknownSection />
 
       {/* =====================================================================
-          5. INTERACTIVE CARTOGRAPHIC DISCOVERY MAP (Phase 6)
-          ===================================================================== */}
-      <HomeMapSection markers={mapMarkers} />
-
-      {/* =====================================================================
-          6. COLLECTIONS AS EXPEDITIONS & TRAILS (Phase 7)
+          06. FOLLOW A STORY (Phase 8: Interactive Collections / Trails)
           ===================================================================== */}
       <ExpeditionsSection collections={collections} />
 
       {/* =====================================================================
-          7. PRACTICAL ROAD TRIP PLANNING ENGINE (Phase 8)
+          07. THERE'S A LOT MORE OUT THERE. (Phase 9: Interactive Map)
+          ===================================================================== */}
+      <HomeMapSection markers={mapMarkers} />
+
+      {/* =====================================================================
+          08. STORIES FROM INDIA (Phase 10: Editorial Field Dispatches)
+          ===================================================================== */}
+      <StoriesFromIndiaSection />
+
+      {/* =====================================================================
+          09. FOUND SOMEWHERE WORTH GOING? (Phase 11: Trip Planner Engine)
           ===================================================================== */}
       <section id="trip-engine" className="trip-planner-section" aria-label="Practical Road Trip Planning Engine">
         <Container size="normal">
@@ -175,6 +188,11 @@ export default async function HomePage() {
           </div>
         </Container>
       </section>
+
+      {/* =====================================================================
+          10. THE MAP IS BIGGER THAN YOU THINK. (Phase 13: Final Emotional CTA)
+          ===================================================================== */}
+      <FinalCtaSection />
     </>
   );
 }
